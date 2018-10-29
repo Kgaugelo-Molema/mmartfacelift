@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<!--
+	Aesthetic by gettemplates.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://gettemplates.co
+-->
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Muzi Mavuso Art House</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="../../img/mmarthouse-icon.png">
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet"> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+
+	<div id="fh5co-page">
+	
+	<div class="aside-toggle btn-circle">
+		<a href="#"><span></span><em>About</em></a>
+	</div>
+	<div class="back-to-home btn-circle">
+		<a href="../../imageupload.php"><span></span><em>Upload</em></a>
+	</div>
+
+	<div id="fh5co-aside">
+		<div class="image-bg"></div>
+		<div class="overlay"></div> 
+		<div class="row">
+			<div class="col-md-12">
+				<div id="fh5co-aside-inner">
+					<div class="row" id="fh5co-bio">
+						<div class="col-md-12">
+							<h2>About Us</h2>
+						</div>
+						<div class="col-md-6">
+							<p>We Love art, We Collect art, Let’s Share art. The Muzi Mavuso Art House – Affectionately known as mmArtHouse is a private home of Muzi Mavuso, who is a passionate collector of contemporary art by young emerging artists. The ArtHouse looks to provide a lucrative platform for young artists and collectors to share their works with the public. Young curators will also have the opportunity to utilize the house for private exhibitions and art talks.</p>
+						</div>
+						<div class="col-md-6">
+							<p>The mmArtHouse aspires  to provide a unique experience, which is intimate and personal for our guests. We pride ourselves on our artists and know that everyone who visits mmArtHouse will find a work of art that connects with them. The mmArtHouse is also utilised as an events venue for those that look to have artistic background to their event. Have your guests captured and mesmerised  by every piece of our art while you entertain your guests be it a launch party, birthday party, the ArtHouse will cater for your needs.</p>
+						</div>
+						<div class="col-md-12 fh5co-social">
+							<a href="#"><i class="icon-envelope"></i></a>
+							<a href="#"><i class="icon-twitter"></i></a>
+							<a href="#"><i class="icon-linkedin"></i></a>
+							<a href="#"><i class="icon-instagram"></i></a>
+							<a href="#"><i class="icon-google-plus"></i></a>
+						</div>
+<div class="col-md-12" style="margin-top: 40px;">
+	<!-- <p>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a href="http://gettemplates.co/">GetTemplates.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></p> -->
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="fh5co-image-grid">
+		
+
+		<div class="grid">
+		  <div class="grid-sizer"></div>
+
+<?php						
+	$directory = "../../gallery";
+	$images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
+	foreach($images as $image)
+	{
+					
+		$li = '<div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		  		<a href="'.$image.'" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="'.$image.'" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>';
+		echo $li;
+	}
+?>
+
+		  <!-- <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		  		<a href="../../gallery/4ce14434-1499-459f-bbf7-4bb73f33dba3.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/4ce14434-1499-459f-bbf7-4bb73f33dba3.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/575b5fa8-88fc-4a8e-8561-12a14dc09e9c.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/575b5fa8-88fc-4a8e-8561-12a14dc09e9c.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/8079f48a-83a7-4465-9ce2-b929e0674d76.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/8079f48a-83a7-4465-9ce2-b929e0674d76.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/8d31ab18-30ae-472f-b638-52dc1acaff08-e1518085370694.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/8d31ab18-30ae-472f-b638-52dc1acaff08-e1518085370694.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/e10c5b70-7da4-4821-b643-3c3584aee243.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/e10c5b70-7da4-4821-b643-3c3584aee243.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/IMG_7769.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/IMG_7769.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/IMG_8500.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/IMG_8500.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/IMG_8962.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/IMG_8962.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/mmarthouse_1.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/mmarthouse_1.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/PHOTO-2018-08-09-18-32-30.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/PHOTO-2018-08-09-18-32-30.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/PHOTO-2018-09-10-21-34-14-1.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/PHOTO-2018-09-10-21-34-14-1.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/PHOTO-2018-09-10-21-34-14.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/PHOTO-2018-09-10-21-34-14.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/PHOTO-2018-09-10-21-34-15.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/PHOTO-2018-09-10-21-34-15.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		  <div class="grid-item item animate-box" data-animate-effect="fadeIn">
+		    <a href="../../gallery/website-pic-3.jpg" class="image-popup" title="Photo">
+					<div class="img-wrap">
+						<img src="../../gallery/website-pic-3.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="text-wrap">
+						<div class="text-inner popup">
+							<div>
+								<h2>Photo</h2>
+							</div>
+						</div>
+					</div>
+				</a>
+		  </div>
+		</div> -->
+
+		
+	</div>
+
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+
+	<!-- Magnific -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Isotope & imagesLoaded -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- GSAP  -->
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/CSSPlugin.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
