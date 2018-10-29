@@ -79,7 +79,7 @@ File: Layout CSS
 .sectiontitle *{margin:0;}
 
 #introblocks{position:relative; z-index:1;}
-#introblocks > ul{display:block; margin:-200px 0 80px;}
+#introblocks > ul{display:block; margin:-200px 0 80px; height:708px;background-position:center;background:url('../../../../img/homeart.jpeg') no-repeat;}
 #introblocks > ul > li{text-align:center;}
 #introblocks > ul > li > article{display:inline-block; width:100%; max-width:320px; text-align:left;}
 #introblocks > ul > li > article > div{padding:30px 20px;}
@@ -369,7 +369,7 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
-	.hoc{max-width:978px;}
+	.hoc{max-width:750px;}
 }
 
 
