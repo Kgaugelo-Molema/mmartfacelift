@@ -1,3 +1,48 @@
+<?php
+const DB_HOST = "localhost"; // set database host
+const DB_USER = "mmartqlz"; // set database user
+const DB_PASS = "g]p+zP7l1end"; // set database password
+const DB_NAME = "mmartqlz_cms"; // set database name
+$connection = new mysqli(DB_HOST,DB_USER,DB_PASS); 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+if (!$connection->select_db(DB_NAME)) {die ("lsdcdb selection failed<br>".$connection->error);}
+
+
+if ((isset($_GET['doLogoff'])) &&($_GET['doLogoff']=="true")) {
+    // to fully log out a visitor we need to clear the session variables
+    session_start();
+    session_unset();
+    session_destroy();
+} 
+
+$msg = "";
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name = $_POST["username"];
+    $password = md5($_POST["password"]);
+	 if ($name == '' || $password == '') {
+        $msg = "You must enter all fields";
+    } else {
+        $sql = "SELECT * FROM members WHERE name = '$name' AND password = '$password'";
+
+        if (!$connection->query($sql)) {
+            echo "Could not successfully run query ($sql) from DB: " . mysql_error();
+            exit;
+        }
+        $result = $connection->query($sql);
+        if ($result->num_rows > 0) {
+            session_start();
+            $_SESSION["user"] = $name;
+            header('Location: ./');
+            exit;
+        }
+
+        $msg = "Username and password do not match";
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +70,7 @@
       <ul>
         <li><a href="index.html"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
 	<!--SIGN IN-->
-		<li><label for="modal-toggle">Login / Sign up</label></li>  
+		<li><label for="modal-toggle">Login / Sign up <?php echo $msg; ?></label></li>  
 		<input id="modal-toggle" type="checkbox">
 		<label class="modal-backdrop" for="modal-toggle"></label>
 		<div class="modal-content">
@@ -45,9 +90,9 @@
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
 				   </div>
-				   <form action="">
-					   <input type="email" placeholder="Email" required>
-					   <input type="password" placeholder="Password" required>
+				   <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+					   <input type="email" placeholder="Email" required name="username">
+					   <input type="password" placeholder="Password" required name="password">
 					   <input type="submit" value="Log In">
 				   </form>
 				   <form class="forgot-password" action="">
