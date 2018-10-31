@@ -1,0 +1,56 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+CREATE DATABASE IF NOT EXISTS `mmartqlz_cms` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `mmartqlz_cms`;
+
+CREATE TABLE `lookuptable` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Type` varchar(10) NOT NULL,
+  `ParentCode` varchar(10) DEFAULT NULL,
+  `Code` varchar(10) NOT NULL,
+  `Description` varchar(50) NOT NULL,
+  `Timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `lookuptableview` (
+  `Type` varchar(10) DEFAULT NULL,
+  `ParentCode` varchar(10) DEFAULT NULL,
+  `ParentDesc` varchar(50) DEFAULT NULL,
+  `Code` varchar(10) DEFAULT NULL,
+  `Description` varchar(50) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `members` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(256) NOT NULL,
+  `nick_name` varchar(256) NULL,
+  `email` varchar(256) NOT NULL,
+  `password` varchar(256) NOT NULL,
+  `Privileges` int(11) NOT NULL,
+  `Timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `privileges` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Description` varchar(50) NOT NULL DEFAULT 'None'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `privileges` (`ID`, `Description`) VALUES
+(0, 'None'),
+(1, 'Admin'),
+(2, 'Guest');
+
+
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

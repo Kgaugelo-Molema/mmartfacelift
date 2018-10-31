@@ -1,4 +1,4 @@
 
 <script>
-    window.location = "res/brickary/";
+    window.location = "res/comingsoon/";
 </script>    
