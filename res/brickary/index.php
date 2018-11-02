@@ -25,9 +25,10 @@ if (isset($_SESSION["user"]))
   $sessionUser = $_SESSION["user"];
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  if (isset($_POST["username"])) {
     $name = $_POST["username"];
     $password = md5($_POST["password"]);
-	 if ($name == '' || $password == '') {
+	  if ($name == '' || $password == '') {
         $msg = "You must enter all fields";
     } else {
         $sql = "SELECT * FROM members WHERE email = '$name' AND password = '$password'";
@@ -45,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $msg = "Username and password do not match";
     }
+  }  
 }
 $label = '<label for="modal-toggle">Login / Sign up ' . $msg . ' </label>';
 if (isset($_SESSION["user"])) 
@@ -99,7 +101,7 @@ if (isset($_SESSION["user"]))
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
 				   </div>
-				   <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+				   <form name="loginForm" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
 					   <input type="email" placeholder="Email" required name="username">
 					   <input type="password" placeholder="Password" required name="password">
 					   <input type="submit" value="Log In">
