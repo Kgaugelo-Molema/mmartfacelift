@@ -25,6 +25,7 @@ if (isset($_SESSION["user"]))
   $sessionUser = $_SESSION["user"];
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  /**********LOGIN OPERATION**********/
   if (isset($_POST["username"])) {
     $name = $_POST["username"];
     $password = md5($_POST["password"]);
@@ -43,10 +44,39 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header('Location: ./');
             exit;
         }
-
         $msg = "Username and password do not match";
     }
-  }  
+  }
+  /**************SIGN UP****************/
+  if (isset($_POST["newPassword"])) {
+    $email = $_POST["email"];
+    $newPassword = md5($_POST["newPassword"]);
+    $confirmPass = md5($_POST["confirmPass"]);
+
+    $sqltext = "SELECT * FROM members WHERE name = '$email' "; 
+    $result = $connection->query($sqltext);
+    if (!$connection->query($sqltext)) {
+        echo "$sqltext";
+        die("Error: Failed to return data from table members " . $connection->error . "<br>");
+    }
+    if ($result->num_rows > 0) {
+        echo '<h3>User name already exists.</h3><a href="./">Click here</a> to return to the home page.<br>';
+        exit;
+    }
+    else {
+        $sqltext = "INSERT INTO members (name, email, password, privileges) VALUES "; 
+        $inputvalues = "'" . $_POST["email"] . "','" . $_POST["email"] . "','" . md5($_POST["newPassword"]) . "', 2"; 
+        $sqltext = "$sqltext ($inputvalues)"; 
+
+        if (!$connection->query($sqltext)) { 
+            echo "$sqltext<br>";
+            die("Error: Failed to insert data into table members " . $connection->error . "<br>"); //Modify
+        }
+        echo '<h3>User created successfully.</h3><a href="./">Click here</a> to login.<br>';
+        exit;
+    }
+  }
+  /**************************************/
 }
 $label = '<label for="modal-toggle">Login / Sign up ' . $msg . ' </label>';
 if (isset($_SESSION["user"])) 
@@ -101,7 +131,7 @@ if (isset($_SESSION["user"]))
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
 				   </div>
-				   <form name="loginForm" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+				   <form name="loginForm" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
 					   <input type="email" placeholder="Email" required name="username">
 					   <input type="password" placeholder="Password" required name="password">
 					   <input type="submit" value="Log In">
@@ -111,7 +141,7 @@ if (isset($_SESSION["user"]))
 					   <label for="forgot-password-toggle">forgot password?</label>
 					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>
-						   <input type="submit" value="go">
+						   <input name="loginBtn" type="submit" value="go">
 					   </div>
 				   </form>
 				</div>
@@ -124,10 +154,10 @@ if (isset($_SESSION["user"]))
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
 				   </div>
-				   <form action="">
-					   <input type="email" placeholder="Email" required>
-					   <input type="password" placeholder="Password" required>
-					   <input type="password" placeholder="Confirm password" required>
+				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+					   <input name="email" type="email" placeholder="Email" required>
+					   <input name="newPassword" type="password" placeholder="Password" required>
+					   <input name="confirmPass" type="password" placeholder="Confirm password" required>
 					   <input type="submit" value="Sign Up">
 				   </form>
 				</div>
