@@ -21,14 +21,18 @@ if ((isset($_GET['doLogoff'])) &&($_GET['doLogoff']=="true")) {
 $sql = '';
 $msg = "";
 $sessionUser = '';
-if (isset($_SESSION["user"]))
+$privileges = 0;  
+if (isset($_SESSION["user"])) {
   $sessionUser = $_SESSION["user"];
+  $privileges = $_SESSION["Privileges"];
+}
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-  /**********LOGIN OPERATION**********/
+  /**********LOGIN ********************/
   if (isset($_POST["username"])) {
     $name = $_POST["username"];
     $password = md5($_POST["password"]);
+    $privileges = $_SESSION["Privileges"];
 	  if ($name == '' || $password == '') {
         $msg = "You must enter all fields";
     } else {
@@ -40,7 +44,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
         $result = $connection->query($sql);
         if ($result->num_rows > 0) {
-            $_SESSION["user"] = $name;
+          while ($row = $result->fetch_assoc()) {
+              $_SESSION["Privileges"] = $row["Privileges"];                
+              break;
+          }
+          $_SESSION["user"] = $name;
             header('Location: ./');
             exit;
         }
@@ -78,9 +86,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   }
   /**************************************/
 }
-$label = '<label for="modal-toggle">Login / Sign up ' . $msg . ' </label>';
+$label = '<li><label for="modal-toggle">Login / Sign up ' . $msg . ' </label></li>';
 if (isset($_SESSION["user"])) 
-    $label = '<a href="./?doLogoff=true">Logoff ' . $sessionUser . ' </a>';
+    $label = '<li><a href="./?doLogoff=true">Logoff ' . $sessionUser . ' </a></li>';
+$label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
 
 ?>
 
@@ -110,8 +119,8 @@ if (isset($_SESSION["user"]))
     <div class="fl_right">
       <ul>
         <li><a href="./"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
+        <?php echo $label ?>
 	<!--SIGN IN-->
-		<li><?php echo $label ?></li>  
 		<input id="modal-toggle" type="checkbox">
 		<label class="modal-backdrop" for="modal-toggle"></label>
 		<div class="modal-content">
