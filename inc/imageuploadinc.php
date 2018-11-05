@@ -17,7 +17,7 @@
 	if (isset($_GET["id"])) {   
 		$uniqueId = $_GET["id"];
 	}
-	if (($_SERVER['REQUEST_METHOD'] == 'POST')) {		
+	if (($_SERVER['REQUEST_METHOD'] == 'POST') && isset($_FILES['file-6'])) {		
 		//$uniqueId = $_POST["uniqueid"];
 		$randkey = rand(1000,100000);
 		//$guidkey = bin2hex((string)$randkey);

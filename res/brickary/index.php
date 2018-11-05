@@ -1,33 +1,7 @@
 <?php
-include "../../imageuploadinc.php";  
-
-const DB_HOST = "localhost"; // set database host
-const DB_USER = "mmartqlz"; // set database user
-const DB_PASS = "g]p+zP7l1end"; // set database password
-const DB_NAME = "mmartqlz_cms"; // set database name
-$connection = new mysqli(DB_HOST,DB_USER,DB_PASS); 
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-if (!$connection->select_db(DB_NAME)) {die ("lsdcdb selection failed<br>".$connection->error);}
-
-
-session_start(); 
-if ((isset($_GET['doLogoff'])) &&($_GET['doLogoff']=="true")) {
-  // to fully log out a visitor we need to clear the session variables
-  session_unset();
-  session_destroy();
-  echo '<h3>You have been logged off</h3><a href="./">Click here to login</a>';
-  exit;
-} 
-
-$sql = '';
-$msg = "";
-$sessionUser = '';
-$privileges = 0;  
-if (isset($_SESSION["user"])) {
-  $sessionUser = $_SESSION["user"];
-  $privileges = $_SESSION["Privileges"];
-}
+include "../../inc/imageuploadinc.php";  
+include "../../inc/dbconfiginc.php";
+include "../../inc/sessionconfiginc.php";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   /**********LOGIN ********************/
@@ -150,7 +124,7 @@ $label .= $privileges == 2 ? '<li><label for="modal-toggle">Admin</label></li>' 
            <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
             <div class="js">
 <?php            
-            include "tab1inc.php";
+            include "../../inc/tab1inc.php";
 ?>             
             </div>
 				   </form>
