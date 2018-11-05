@@ -1,4 +1,6 @@
 <?php
+include "../../imageuploadinc.php";  
+
 const DB_HOST = "localhost"; // set database host
 const DB_USER = "mmartqlz"; // set database user
 const DB_PASS = "g]p+zP7l1end"; // set database password
@@ -89,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 $label = '<li><label for="modal-toggle">Login / Sign up ' . $msg . ' </label></li>';
 if (isset($_SESSION["user"])) 
     $label = '<li><a href="./?doLogoff=true">Logoff ' . $sessionUser . ' </a></li>';
-$label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
+$label .= $privileges == 2 ? '<li><label for="modal-toggle">Admin</label></li>' : '';
 
 ?>
 
@@ -99,6 +101,7 @@ $label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
 <title>Mmarthouse - Home</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
 <link href="layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="shortcut icon" href="../../img/mmarthouse-icon.png">
@@ -131,23 +134,32 @@ $label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
 				  </svg>
 			  </label>
 			<div class="tabs">
-	<!--  LOG IN  -->
+  <!--  LOG IN  -->
 				<input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
-				<label for="tab-1" class="table"><span>Login</span></label>
+				<label for="tab-1" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content">
 				   <div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
-					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+<?php             
+          if (!isset($_SESSION["user"])) {
+					   echo '<a href="" class="fa fa-twitter" aria-hidden="true"></a>';
+					   echo '<a href="" class="fa fa-google-plus" aria-hidden="true"></a>';
+             echo '<a href="" class="fa fa-facebook" aria-hidden="true"></a>';
+          }
+?>             
 				   </div>
-				   <form name="loginForm" action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-					   <input type="email" placeholder="Email" required name="username">
-					   <input type="password" placeholder="Password" required name="password">
-					   <input type="submit" value="Log In">
+           <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
+            <div class="js">
+<?php            
+            include "tab1inc.php";
+?>             
+            </div>
 				   </form>
 				   <form class="forgot-password" action="">
-					   <input id="forgot-password-toggle" type="checkbox">
-					   <label for="forgot-password-toggle">forgot password?</label>
+             <input id="forgot-password-toggle" type="checkbox">
+<?php
+            if (!isset($_SESSION["user"]))              
+             echo '<label for="forgot-password-toggle">forgot password?</label>';
+?>             
 					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>
 						   <input name="loginBtn" type="submit" value="go">
@@ -156,7 +168,7 @@ $label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
 				</div>
 	<!--  SIGN UP  -->
 				<input class="radio" id="tab-2" name="tabs-name" type="radio">
-				<label for="tab-2" class="table"><span>Sign up</span></label>
+				<label for="tab-2" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
 				<div class="tabs-content">
 					<div class="login_socnet">
 					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
@@ -377,5 +389,6 @@ $label .= $privileges == 2 ? '<li><label>Administration</label></li>' : '';
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script src="../../js/custom-file-input.js"></script>
 </body>
 </html>

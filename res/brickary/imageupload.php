@@ -1,50 +1,5 @@
 <?php
-    $album = isset($_GET["album"]) ? $_GET["album"] : "Photos";
-   // if ($_SERVER['REQUEST_METHOD'] == 'POST')
-   // {
-       // if (!isset($_POST["env"])) {
-            // $msg = "Only image files can be uploaded [*.jpg;*.jpeg;*.png;*.gif]";
-            // echo '<span style="color:red;">'.$msg.'</span>';
-            // exit;
-       // }
-       // $env = $_POST["env"];
-   // }
-
-	$msg = "";
-	$notify = "";
-
-	$uniqueId = "Null";
-	if (isset($_GET["id"])) {   
-		$uniqueId = $_GET["id"];
-	}
-	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		// 
-		//$uniqueId = $_POST["uniqueid"];
-		$randkey = rand(1000,100000);
-		//$guidkey = bin2hex((string)$randkey);
-		$guidkey = bin2hex(openssl_random_pseudo_bytes(16));
-		$targetfilename = rand(1000,100000)."-".$_FILES['file-6']['name'];
-		$file_loc = $_FILES['file-6']['tmp_name'];
-		$file_size = $_FILES['file-6']['size'];
-		$file_type = $_FILES['file-6']['type'];
-
-
-	$folder = "gallery/";			
-	 move_uploaded_file($file_loc,$folder.$targetfilename);
-
-	 // Valid file extensions
-	 $extensions_arr = array("image/jpg","image/jpeg","image/png","image/gif");
-         if( !in_array($file_type,$extensions_arr) ) {
-            $msg = "Only image files can be uploaded [*.jpg;*.jpeg;*.png;*.gif]";
-         }
-	 // Check extension
-	 if( in_array($file_type,$extensions_arr) ){
-
-                    $notify = "Image uploaded successfully.";
-                    header("Location:./res/photo/");
-	 } 
-	}
-	 
+	include_once "../../imageuploadinc.php";
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -73,9 +28,12 @@
 			<div class="content">
 				<div class="box">
 					<form method="post" action="<?php echo basename(__FILE__); ?>" enctype='multipart/form-data'>
-						<input type="file" name="file-6" id="file-6" class="inputfile inputfile-5" data-multiple-caption="{count} files selected" />
+<?php
+						include "tab1inc.php";
+?>
+						<!-- <input type="file" name="file-6" id="file-6" class="inputfile inputfile-5" data-multiple-caption="{count} files selected" />
 						<label for="file-6"><figure><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"/></svg></figure> <span></span></label>
-						<br><input class="tm-intro-link tm-light-blue-bordered-btn" type='submit' value='Save File' name='upload'>
+						<br><input class="tm-intro-link tm-light-blue-bordered-btn" type='submit' value='Save File' name='upload'> -->
 					</form>
 				</div>
 			</div>
