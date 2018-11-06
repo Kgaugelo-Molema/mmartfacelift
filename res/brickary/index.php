@@ -89,7 +89,7 @@ include "../../inc/cmsinc.php";
            <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
            <div class="js">
 <?php            
-            include "../../inc/tab1inc.php";
+            include "../../inc/tab2inc.php";
 ?>             
             </div>
            
