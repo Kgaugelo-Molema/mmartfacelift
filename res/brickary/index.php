@@ -120,7 +120,7 @@ include "../../inc/cmsinc.php";
           <li class="active"><a href="./">Home</a></li>
           <li><a href="page/about.php">About Us</a></li>
           <li><a href="page/gallery.php">Gallery</a></li>
-          <li><a href="page/news.html">News</a></li>
+          <li><a href="page/news.php">News</a></li>
           <li><a href="page/events.php">Events</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -266,7 +266,7 @@ include "../../inc/cmsinc.php";
         <li><a href=""><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="page/about.php">About Us</a></li>
           <li><a href="page/gallery.php">Gallery</a></li>
-          <li><a href="page/news.html">News</a></li>
+          <li><a href="page/news.php">News</a></li>
           <li><a href="page/events.php">Events</a></li>
           <li><a href="page/contact.html">Contact Us</a></li>
       </ul>
