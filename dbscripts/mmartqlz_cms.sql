@@ -1,7 +1,4 @@
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
-SET time_zone = "+00:00";
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -40,11 +37,6 @@ CREATE TABLE IF NOT EXISTS `members` (
   `Timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
-
-INSERT INTO `members` (`id`, `name`, `nick_name`, `email`, `password`, `Privileges`, `Timestamp`) VALUES
-(1, 'KKK', NULL, 'kkk@test', '28ce7cc8cffb8ad07472fd8cfe373639', 1, '2018-11-01 23:30:53'),
-(2, 'rare@dice', NULL, 'rare@dice', '791b1df3d28adfd8be24dce9153c03e6', 2, '2018-11-02 20:18:52'),
-(3, 'do@done', NULL, 'do@done', '202cb962ac59075b964b07152d234b70', 2, '2018-11-02 20:41:09');
 
 DROP TABLE IF EXISTS `privileges`;
 CREATE TABLE IF NOT EXISTS `privileges` (
