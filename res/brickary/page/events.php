@@ -104,10 +104,10 @@ Licence URI: http://www.os-templates.com/template-terms
       <nav id="mainav" class="fl_right">
         <ul class="clear">
 		  <li><a href="../">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
 		  <li><a href="news.html">News</a></li>
-		  <li class="active"><a href="events.html">Events</a></li>
+		  <li class="active"><a href="events.php">Events</a></li>
 		  <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -137,18 +137,9 @@ Licence URI: http://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
-      <!-- ################################################################################################ -->
-	  <div>
-		<article>
-            <h3 class="heading">~ Watch the space ~</h3>
-            <p></p>
-            <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
-          </article>
-        </li>
-	  </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
+    <div id="introblocks">
+      <ul class="nospace group">
+      </ul>
     </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
@@ -165,10 +156,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <nav>
       <ul class="nospace inline pushright uppercase">
         <li><a href="../"><i class="fa fa-lg fa-home"></i></a></li>
-		  <li><a href="about.html">About Us</a></li>
+		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.html">News</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li><a href="events.php">Events</a></li>
           <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>

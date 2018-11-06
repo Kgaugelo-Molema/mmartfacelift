@@ -1,7 +1,7 @@
 <?php
     if (!isset($_SESSION["user"])) {
         echo '<input type="email" placeholder="Email" required name="username">';
-        echo '<input type="password" placeholder="Password" required name="password">';
+        echo '<input type="password" placeholder="Password" name="password">';
         echo '<input type="submit" value="Log In">';
     }
     else {

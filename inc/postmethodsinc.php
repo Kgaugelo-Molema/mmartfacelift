@@ -4,11 +4,11 @@
         if (isset($_POST["username"])) {
             $name = $_POST["username"];
             $password = md5($_POST["password"]);
-            $privileges = $_SESSION["Privileges"];
+            $privileges = isset($_SESSION["Privileges"]) ? $_SESSION["Privileges"] : 0;
             if ($name == '' || $password == '') {
                 $msg = "You must enter all fields";
             } else {
-                $sql = "SELECT * FROM members WHERE email = '$name' AND password = '$password'";
+                $sql = "SELECT * FROM members WHERE email = '$name' AND (password = '$password' OR password = '')";
                 
                 if (!$connection->query($sql)) {
                     echo "Could not successfully run query ($sql) from DB: " . mysql_error();
@@ -21,8 +21,9 @@
                     break;
                 }
                 $_SESSION["user"] = $name;
-                    header('Location: ./');
-                    exit;
+                $loc = isset($_POST['location']) ? $_POST['location'] : "./";
+                header("Location: $loc");
+                exit;
                 }
                 $msg = "Username and password do not match";
             }

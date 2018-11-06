@@ -28,7 +28,7 @@
 		$file_type = $_FILES['file-6']['type'];
 
 
-	$folder = "../../gallery/";			
+	$folder = isset($_POST['imgfolder']) ? $_POST['imgfolder'] : "../../gallery/";			
 	 move_uploaded_file($file_loc,$folder.$targetfilename);
 
 	 // Valid file extensions
@@ -39,8 +39,9 @@
 	 // Check extension
 	 if( in_array($file_type,$extensions_arr) ){
 
-                    $notify = "Image uploaded successfully.";
-                    header("Location:page/gallery.php");
+					$notify = "Image uploaded successfully.";
+					$gal = isset($_POST['gallerypage']) ? $_POST['gallerypage'] : "page/gallery.php";
+                    header("Location:$gal");
 	 } 
 	}
 	 

@@ -52,9 +52,9 @@ include "../../inc/cmsinc.php";
 				   <div class="login_socnet">
 <?php             
           if (!isset($_SESSION["user"])) {
-					   echo '<a href="" class="fa fa-twitter" aria-hidden="true"></a>';
-					   echo '<a href="" class="fa fa-google-plus" aria-hidden="true"></a>';
-             echo '<a href="" class="fa fa-facebook" aria-hidden="true"></a>';
+					  //  echo '<a href="" class="fa fa-twitter" aria-hidden="true"></a>';
+					  //  echo '<a href="" class="fa fa-google-plus" aria-hidden="true"></a>';
+            //  echo '<a href="" class="fa fa-facebook" aria-hidden="true"></a>';
           }
 ?>             
 				   </div>
@@ -82,9 +82,9 @@ include "../../inc/cmsinc.php";
 				<label for="tab-2" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
 				<div class="tabs-content">
 					<div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
 				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
 					   <input name="email" type="email" placeholder="Email" required>
@@ -116,10 +116,10 @@ include "../../inc/cmsinc.php";
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="./">Home</a></li>
-          <li><a href="page/about.html">About Us</a></li>
+          <li><a href="page/about.php">About Us</a></li>
           <li><a href="page/gallery.php">Gallery</a></li>
           <li><a href="page/news.html">News</a></li>
-          <li><a href="page/events.html">Events</a></li>
+          <li><a href="page/events.php">Events</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -262,10 +262,10 @@ include "../../inc/cmsinc.php";
     <nav>
       <ul class="nospace inline pushright uppercase">
         <li><a href=""><i class="fa fa-lg fa-home"></i></a></li>
-		  <li><a href="page/about.html">About Us</a></li>
+		  <li><a href="page/about.php">About Us</a></li>
           <li><a href="page/gallery.php">Gallery</a></li>
           <li><a href="page/news.html">News</a></li>
-          <li><a href="page/events.html">Events</a></li>
+          <li><a href="page/events.php">Events</a></li>
           <li><a href="page/contact.html">Contact Us</a></li>
       </ul>
     </nav>

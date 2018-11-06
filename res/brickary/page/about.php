@@ -1,3 +1,15 @@
+<?php
+include "../../../inc/imageuploadinc.php";  
+include "../../../inc/dbconfiginc.php";
+include "../../../inc/sessionconfiginc.php";
+include "../../../inc/postmethodsinc.php";
+//include "../../../inc/cmsinc.php";
+$label = '<li><label for="modal-toggle">Login / Sign up ' . $msg . ' </label></li>';
+if (isset($_SESSION["user"])) 
+    $label = '<li><a href="./?doLogoff=true">Logoff ' . $sessionUser . ' </a></li>';
+$label .= $privileges == 2 ? '<li><label for="modal-toggle">Admin</label></li>' : '';
+
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Mmarthouse
@@ -11,6 +23,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>Mmarthouse | Pages | About</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link href="../layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
 <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
@@ -31,7 +44,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="fl_right">
       <ul>
         <li><a href="../"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
-		<li><label for="modal-toggle">Login / Sign up</label></li>  
+        <?php echo $label ?> 
       </ul>
     </div>
 		<input id="modal-toggle" type="checkbox">
@@ -49,21 +62,32 @@ Licence URI: http://www.os-templates.com/template-terms
 				<label for="tab-1" class="table"><span>Login</span></label>
 				<div class="tabs-content">
 				   <div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
-				   <form action="">
-					   <input type="email" placeholder="Email" required>
-					   <input type="password" placeholder="Password" required>
-					   <input type="submit" value="Log In">
+           <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
+            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
+            <input type="hidden" value="../../../gallery/" name="imgfolder">
+            <input type="hidden" value="./gallery.php" name="gallerypage">
+            <script>
+              alert(document.getElementByName('imgfolder')[0]);
+            </script> 
+            <div class="js">
+<?php            
+            include "../../../inc/tab1inc.php";
+?>             
+            </div>
 				   </form>
 				   <form class="forgot-password" action="">
-					   <input id="forgot-password-toggle" type="checkbox">
-					   <label for="forgot-password-toggle">forgot password?</label>
+             <input id="forgot-password-toggle" type="checkbox">
+<?php
+            if (!isset($_SESSION["user"]))              
+             echo '<label for="forgot-password-toggle">forgot password?</label>';
+?>             
 					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>
-						   <input type="submit" value="go">
+						   <input name="loginBtn" type="submit" value="go">
 					   </div>
 				   </form>
 				</div>
@@ -72,14 +96,14 @@ Licence URI: http://www.os-templates.com/template-terms
 				<label for="tab-2" class="table"><span>Sign up</span></label>
 				<div class="tabs-content">
 					<div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
-				   <form action="">
-					   <input type="email" placeholder="Email" required>
-					   <input type="password" placeholder="Password" required>
-					   <input type="password" placeholder="Confirm password" required>
+				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+					   <input name="email" type="email" placeholder="Email" required>
+					   <input name="newPassword" type="password" placeholder="Password" required>
+					   <input name="confirmPass" type="password" placeholder="Confirm password" required>
 					   <input type="submit" value="Sign Up">
 				   </form>
 				</div>
@@ -104,10 +128,10 @@ Licence URI: http://www.os-templates.com/template-terms
       <nav id="mainav" class="fl_right">
         <ul class="clear">
 		  <li><a href="../">Home</a></li>
-          <li class="active"><a href="about.html">About Us</a></li>
+          <li class="active"><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
 		  <li><a href="news.html">News</a></li>
-		  <li><a href="events.html">Events</a></li>
+		  <li><a href="events.php">Events</a></li>
 		  <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -169,10 +193,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <nav>
       <ul class="nospace inline pushright uppercase">
         <li><a href="../"><i class="fa fa-lg fa-home"></i></a></li>
-		  <li><a href="about.html">About Us</a></li>
+		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.html">News</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li><a href="events.php">Events</a></li>
           <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
@@ -206,5 +230,6 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../../../js/custom-file-input.js"></script>
 </body>
 </html>
