@@ -45,7 +45,7 @@ include "../../inc/cmsinc.php";
 				  </svg>
 			  </label>
 			<div class="tabs">
-  <!--  LOG IN  -->
+  <!--  LOG IN / GALLERY -->
 				<input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
 				<label for="tab-1" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content">
@@ -86,11 +86,13 @@ include "../../inc/cmsinc.php";
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
-				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-					   <input name="email" type="email" placeholder="Email" required>
-					   <input name="newPassword" type="password" placeholder="Password" required>
-					   <input name="confirmPass" type="password" placeholder="Confirm password" required>
-					   <input type="submit" value="Sign Up">
+           <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+           <div class="js">
+<?php            
+            include "../../inc/tab1inc.php";
+?>             
+            </div>
+           
 				   </form>
 				</div>
 			</div>
