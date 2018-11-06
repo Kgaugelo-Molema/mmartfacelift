@@ -49,9 +49,9 @@ Licence URI: http://www.os-templates.com/template-terms
 				<label for="tab-1" class="table"><span>Login</span></label>
 				<div class="tabs-content">
 				   <div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
 				   <form action="">
 					   <input type="email" placeholder="Email" required>

@@ -70,9 +70,6 @@ Licence URI: http://www.os-templates.com/template-terms
             <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
             <input type="hidden" value="../../../gallery/" name="imgfolder">
             <input type="hidden" value="./gallery.php" name="gallerypage">
-            <script>
-              alert(document.getElementByName('imgfolder')[0]);
-            </script> 
             <div class="js">
 <?php            
             include "../../../inc/tab1inc.php";
