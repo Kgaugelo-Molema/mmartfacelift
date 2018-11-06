@@ -53,14 +53,22 @@ Licence URI: http://www.os-templates.com/template-terms
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
-				   <form action="">
-					   <input type="email" placeholder="Email" required>
-					   <input type="password" placeholder="Password" required>
-					   <input type="submit" value="Log In">
+           <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
+            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
+            <input type="hidden" value="../../../gallery/" name="imgfolder">
+            <input type="hidden" value="./gallery.php" name="gallerypage">
+            <div class="js">
+<?php            
+            include "../../../inc/tab1inc.php";
+?>             
+            </div>
 				   </form>
 				   <form class="forgot-password" action="">
-					   <input id="forgot-password-toggle" type="checkbox">
-					   <label for="forgot-password-toggle">forgot password?</label>
+             <input id="forgot-password-toggle" type="checkbox">
+<?php
+            if (!isset($_SESSION["user"]))              
+             echo '<label for="forgot-password-toggle">forgot password?</label>';
+?>             
 					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>
 						   <input type="submit" value="go">
@@ -72,9 +80,9 @@ Licence URI: http://www.os-templates.com/template-terms
 				<label for="tab-2" class="table"><span>Sign up</span></label>
 				<div class="tabs-content">
 					<div class="login_socnet">
-					   <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
 					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
 				   <form action="">
 					   <input type="email" placeholder="Email" required>

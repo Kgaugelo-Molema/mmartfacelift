@@ -59,7 +59,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			<div class="tabs">
 	<!--  LOG IN  -->
 				<input class="radio" id="tab-1" name="tabs-name" type="radio" checked>
-				<label for="tab-1" class="table"><span>Login</span></label>
+				<label for="tab-1" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content">
 				   <div class="login_socnet">
 					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
@@ -90,7 +90,7 @@ Licence URI: http://www.os-templates.com/template-terms
 				</div>
 	<!--  SIGN UP  -->
 				<input class="radio" id="tab-2" name="tabs-name" type="radio">
-				<label for="tab-2" class="table"><span>Sign up</span></label>
+				<label for="tab-2" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
 				<div class="tabs-content">
 					<div class="login_socnet">
 					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
@@ -98,10 +98,11 @@ Licence URI: http://www.os-templates.com/template-terms
 					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
 				   </div>
 				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-					   <input name="email" type="email" placeholder="Email" required>
-					   <input name="newPassword" type="password" placeholder="Password" required>
-					   <input name="confirmPass" type="password" placeholder="Confirm password" required>
-					   <input type="submit" value="Sign Up">
+           <div class="js">
+<?php            
+            include "../../../inc/tab2inc.php";
+?>             
+            </div>
 				   </form>
 				</div>
 			</div>
