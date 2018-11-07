@@ -109,7 +109,7 @@ Licence URI: http://www.os-templates.com/template-terms
 		  <li><a href="gallery.php">Gallery</a></li>
 		  <li><a href="news.php">News</a></li>
 		  <li><a href="events.php">Events</a></li>
-		  <li class="active"><a href="contact.html">Contact Us</a></li>
+		  <li class="active"><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -122,7 +122,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul>
       <li><a href="../">Home</a></li>
-      <li><a href="contact.html">Admin</a></li>
+      <li><a href="contact.php">Admin</a></li>
     </ul>
     <!-- ################################################################################################ -->
     <h6 class="heading">Admin</h6>
@@ -218,7 +218,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.php">News</a></li>
           <li><a href="events.php">Events</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
       </ul>
     </nav>
     <ul class="faico clear">

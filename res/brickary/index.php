@@ -123,7 +123,7 @@ include "../../inc/emailinc.php";
           <li><a href="page/gallery.php">Gallery</a></li>
           <li><a href="page/news.php">News</a></li>
           <li><a href="page/events.php">Events</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="page/contact.php">Contact Us</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -269,7 +269,7 @@ include "../../inc/emailinc.php";
           <li><a href="page/gallery.php">Gallery</a></li>
           <li><a href="page/news.php">News</a></li>
           <li><a href="page/events.php">Events</a></li>
-          <li><a href="page/contact.html">Contact Us</a></li>
+          <li><a href="page/contact.php">Contact Us</a></li>
       </ul>
     </nav>
     <ul class="faico clear">

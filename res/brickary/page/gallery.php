@@ -130,7 +130,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li class="active"><a href="gallery.php">Gallery</a></li>
           <li><a href="news.php">News</a></li>
           <li><a href="events.php">Events</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -222,7 +222,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.php">News</a></li>
           <li><a href="events.php">Events</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
       </ul>
     </nav>
     <ul class="faico clear">

@@ -37,9 +37,12 @@ if(isset($_POST['email'])) {
     }
  
     if(strlen($error_message) == 0) {
-        //$email_message .= "Name: ".clean_string($first_name)."\n";
+        $first_name = isset($_POST['name']) ? $_POST['name'] : ""; // required
+        $email_from = $_POST['email']; // required
+        $comments = isset($_POST['message']) ? $_POST['message'] : ""; // required
+        $email_message .= "Name: ".clean_string($first_name)."\n";
         $email_message .= "Email: ".clean_string($email_from)."\n";
-        //$email_message .= "Message: ".clean_string($comments)."\n";
+        $email_message .= "Message: ".clean_string($comments)."\n";
     }
  
     // create email headers
