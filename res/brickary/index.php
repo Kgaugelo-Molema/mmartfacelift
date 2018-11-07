@@ -4,6 +4,7 @@ include "../../inc/dbconfiginc.php";
 include "../../inc/sessionconfiginc.php";
 include "../../inc/postmethodsinc.php";
 include "../../inc/cmsinc.php";
+include "../../inc/emailinc.php";
 ?>
 
 <!DOCTYPE html>
@@ -145,7 +146,7 @@ include "../../inc/cmsinc.php";
               <form class="group" method="post" action="#">
                 <fieldset>
                   <legend>Sign-Up:</legend>
-                  <input type="email" value="" placeholder="Email Here&hellip;">
+                  <input name="email" type="email" value="" placeholder="Email Here&hellip;">
                   <button class="fa fa-sign-in" type="submit" title="Submit"><em>Submit</em></button>
                 </fieldset>
               </form>
