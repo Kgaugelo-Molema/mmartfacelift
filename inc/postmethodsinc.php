@@ -1,4 +1,6 @@
 <?php
+    include 'loginc.php';
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     /**********LOGIN ********************/
         if (isset($_POST["username"])) {
@@ -8,13 +10,17 @@
             if ($name == '' || $password == '') {
                 $msg = "You must enter all fields";
             } else {
-                $sql = "SELECT * FROM members WHERE email = '$name' AND (password = '$password' OR password = '')";
-                
-                if (!$connection->query($sql)) {
-                    echo "Could not successfully run query ($sql) from DB: " . mysql_error();
+                $timestamp = date("F j, Y, g:i a");
+                $query = "SELECT * FROM members WHERE email = '$name' AND (password = '$password' OR password = '')";
+                $log_msg = "$timestamp \n User: $name \n $query \n";
+                $log_msg .= "------------------------------------------------------------------------------------------------------------------------------";
+                wh_log($log_msg);
+
+                if (!$connection->query($query)) {
+                    echo "Could not successfully run query ($query) from DB: " . mysql_error();
                     exit;
                 }
-                $result = $connection->query($sql);
+                $result = $connection->query($query);
                 if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     $_SESSION["Privileges"] = $row["Privileges"];                
@@ -25,7 +31,7 @@
                 header("Location: $loc");
                 exit;
                 }
-                $msg = "Username and password do not match";
+                $msg = "";
             }
         }
         /**************SIGN UP****************/

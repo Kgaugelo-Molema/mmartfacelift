@@ -138,7 +138,6 @@ include "../../inc/emailinc.php";
       <ul class="slides">
         <li>
           <article>
-			<p><?php echo $sql ?></p>
             <p>Private space for Artists, Collectors, Curators and Creatives</p>
             <h3 class="heading">Showroom Event</h3>
             <p>Exhibition of new paintings</p>
