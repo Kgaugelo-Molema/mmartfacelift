@@ -80,7 +80,7 @@ Licence URI: http://www.os-templates.com/template-terms
              <input id="forgot-password-toggle" type="checkbox">
 <?php
             if (!isset($_SESSION["user"]))              
-             echo '<label for="forgot-password-toggle">forgot password?</label>';
+             //echo '<label for="forgot-password-toggle">forgot password?</label>';
 ?>             
 					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>

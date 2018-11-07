@@ -272,6 +272,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 18px;
   letter-spacing: 1px;
   transition: 0.1s;
+  width: 100%;
 }
 .tabs > .tabs-content form input:focus {
   transform: translateX(10px);
