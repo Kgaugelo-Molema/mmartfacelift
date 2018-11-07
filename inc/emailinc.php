@@ -5,7 +5,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "info@mmarthouse.co.za";
-    $email_cc = "";
+    $email_cc = "mbali@mmarthouse.co.za";
     $email_subject = "Art Collection Enquiry";
  
     function died($error) {
