@@ -8,3 +8,7 @@ November 7, 2018, 8:34 pm
  User: root@test 
  SELECT * FROM members WHERE email = 'root@test' AND (password = '7acbb35a6f751131a955c22e56291b8f' OR password = '') 
 ------------------------------------------------------------------------------------------------------------------------------
+November 7, 2018, 9:30 pm 
+ User: do@done 
+ SELECT * FROM members WHERE email = 'do@done' AND (password = '202cb962ac59075b964b07152d234b70' OR password = '') 
+------------------------------------------------------------------------------------------------------------------------------
