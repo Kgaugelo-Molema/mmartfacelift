@@ -116,7 +116,8 @@ include "../../../inc/emailinc.php";
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="./">mmARTHouse</a></h1>
+        <!-- <img src="../../../img/logoinsta3.jpg"> -->
+        <img src="../../../img/logoinsta3.jpg">
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
