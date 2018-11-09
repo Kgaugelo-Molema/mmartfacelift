@@ -689,7 +689,7 @@ class Portfolio_gallery_front extends WDWT_frontend {
     $tumb = $this->get_param('tumblr_icon_show', false);
     $fl = $this->get_param('flickr_icon_show', false);
     $pin = $this->get_param('pinterest_icon_show', false);
-    $dr = $this->get_param('dribbble_icon_show', false);
+    $dr = $this->get_param('instagram_icon_show', false);
     $px = $this->get_param('px500_icon_show', false);
     $li = $this->get_param('linkedin_icon_show', false);
     $snp = $this->get_param('snapchat_icon_show', false);
@@ -762,7 +762,7 @@ class Portfolio_gallery_front extends WDWT_frontend {
           <?php } ?>
           <?php if( $dr){ ?>
             <span class='wdwt-social-span'>
-          <a class='wdwt-social-dr wdwt-social-link' href='<?php echo esc_attr($this->get_param('dribbble_url', '')); ?>' target='_blank'><i class="fa fa-dribbble"></i>
+          <a class='wdwt-social-dr wdwt-social-link' href='<?php echo esc_attr($this->get_param('instagram_url', '')); ?>' target='_blank'><i class="fa fa-instagram"></i>
           </a>  
         </span>
           <?php } ?>

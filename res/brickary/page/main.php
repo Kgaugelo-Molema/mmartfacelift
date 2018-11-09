@@ -276,7 +276,7 @@ include "../../../inc/emailinc.php";
     <ul class="faico clear">
       <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
       <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+      <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
       <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
       <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
     </ul>

@@ -141,7 +141,7 @@ new: more allowed HTML tags in footer text: such as p, span, br with class attri
 
 =1.0.11=
 new: sidebar under menu
-new: social links for Instagram, Youtube, Tumblr, Flickr, Pinterest, Dribbble, 500px
+new: social links for Instagram, Youtube, Tumblr, Flickr, Pinterest, instagram, 500px
 new: option to set image size in thumbs grid, but show originals in lightbox
 fixed: bug with google maps if site uses https (PRO)
 fixed: notice in customizer in PHP 5.4

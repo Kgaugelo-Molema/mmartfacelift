@@ -406,21 +406,21 @@ class WDWT_general_settings_page_class
         'default' => '',
         'customizer' => array()
       ),
-      'dribbble_icon_show' => array(
-        "name" => "dribbble_icon_show",
-        "title" => __("Show Dribbble Icon", "portfolio-gallery"),
+      'instagram_icon_show' => array(
+        "name" => "instagram_icon_show",
+        "title" => __("Show instagram Icon", "portfolio-gallery"),
         'type' => 'checkbox_open',
         "description" => "",
         'section' => 'general_links',
-        'show' => array('dribbble_url'),
+        'show' => array('instagram_url'),
         'hide' => array(),
         'tab' => 'general',
         'default' => false,
         'customizer' => array()
       ),
-      'dribbble_url' => array(
-        "name" => "dribbble_url",
-        "title" => __("Enter your Dribbble Profile URL.", "portfolio-gallery"),
+      'instagram_url' => array(
+        "name" => "instagram_url",
+        "title" => __("Enter your instagram Profile URL.", "portfolio-gallery"),
         'type' => 'text',
         "sanitize_type" => "esc_url_raw",
         'section' => 'general_links',
