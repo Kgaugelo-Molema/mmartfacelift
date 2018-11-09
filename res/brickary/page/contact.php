@@ -153,10 +153,10 @@ Licence URI: http://www.os-templates.com/template-terms
 							<li><i class="fa fa-mail-forward"></i><a href="#">&nbsp;info@mmarthouse.co.za</a></li>
 							<li><i class="fa fa-globe"></i><a href="#">&nbsp;www.mmarthouse.co.za</a></li>
  							<li>
-								<a target="_blank" href="#"><i class="fa fa-google-plus"></i>&nbsp;Google+</a>
+               <a target="_blank" href="http://web.facebook.com/mmarthouse/"><i class="fa fa-facebook"></i>&nbsp;Facebook</a>
 							</li>
  							<li>
-								<a target="_blank" href="#"><i class="fa fa-facebook"></i>&nbsp;Facebook</a>
+								<a target="_blank" href="http://www.instagram.com/mmarthouse/"><i class="fa fa-instagram"></i>&nbsp;Instagram</a>
 							</li>
 						</ul>
 					</div>
@@ -224,12 +224,11 @@ Licence URI: http://www.os-templates.com/template-terms
       </ul>
     </nav>
     <ul class="faico clear">
-      <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-      <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-      <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-      <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-      <li><a class="faicon-vk" href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a class="faicon-facebook" target="_blank" href="http://web.facebook.com/mmarthouse/"><i class="fa fa-facebook"></i></a></li>
+      <li><a class="faicon-twitter" target="_blank" href="http://twitter.com/search?q=mmarthouse&src=typd"><i class="fa fa-twitter"></i></a></li>
+      <li><a class="faicon-instagram" target="_blank" href="http://www.instagram.com/mmarthouse/"><i class="fa fa-instagram"></i></a></li>
+      <!-- <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li> -->
     </ul>
     <!-- ################################################################################################ -->
   </footer>
