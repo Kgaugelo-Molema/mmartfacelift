@@ -1,23 +1,22 @@
 <?php
-include "../../inc/imageuploadinc.php";  
-include "../../inc/dbconfiginc.php";
-include "../../inc/sessionconfiginc.php";
-include "../../inc/postmethodsinc.php";
-include "../../inc/cmsinc.php";
-include "../../inc/emailinc.php";
+include "../../../inc/imageuploadinc.php";  
+include "../../../inc/dbconfiginc.php";
+include "../../../inc/sessionconfiginc.php";
+include "../../../inc/postmethodsinc.php";
+include "../../../inc/cmsinc.php";
+include "../../../inc/emailinc.php";
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mmarthouse - Home</title>
+<title>mmARTHouse - Home</title>
 <meta charset="utf-8">
-<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
-<link href="layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="shortcut icon" href="../../img/mmarthouse-icon.png">
+<link href="../layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
+<link href="../layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -36,6 +35,8 @@ include "../../inc/emailinc.php";
       <ul>
         <li><a href="./"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
         <?php echo $label ?>
+      </ul>
+    </div>
 	<!--SIGN IN-->
 		<input id="modal-toggle" type="checkbox">
 		<label class="modal-backdrop" for="modal-toggle"></label>
@@ -63,7 +64,7 @@ include "../../inc/emailinc.php";
            <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
             <div class="js">
 <?php            
-            include "../../inc/tab1inc.php";
+            include "../../../inc/tab1inc.php";
 ?>             
             </div>
 				   </form>
@@ -91,7 +92,7 @@ include "../../inc/emailinc.php";
            <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
            <div class="js">
 <?php            
-            include "../../inc/tab2inc.php";
+            include "../../../inc/tab2inc.php";
 ?>             
             </div>
            
@@ -109,22 +110,22 @@ include "../../inc/emailinc.php";
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../../img/bg_img_2-1.jpg');"> 
+<div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="./">Mmarthouse</a></h1>
+        <h1><a href="./">mmARTHouse</a></h1>
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="./">Home</a></li>
-          <li><a href="page/about.php">About Us</a></li>
-          <li><a href="page/gallery.php">Gallery</a></li>
-          <li><a href="page/news.php">News</a></li>
-          <li><a href="page/events.php">Events</a></li>
-          <li><a href="page/contact.php">Contact Us</a></li>
+          <li><a href="./about.php">About Us</a></li>
+          <li><a href="./gallery.php">Gallery</a></li>
+          <li><a href="./news.php">News</a></li>
+          <li><a href="./events.php">Events</a></li>
+          <li><a href="./contact.php">Contact Us</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -195,7 +196,7 @@ include "../../inc/emailinc.php";
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../../img/MMArtHouse_40.jpg');">
+<div class="wrapper bgded overlay" style="background-image:url('../../../img/MMArtHouse_40.jpg');">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle center">
@@ -258,18 +259,18 @@ include "../../inc/emailinc.php";
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('../../img/MMArtHouse_40.jpg');">
+<div class="wrapper row4 bgded overlay" style="background-image:url('../../../img/MMArtHouse_40.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <h3 class="heading">Mmarthouse</h3>
+    <h3 class="heading">mmARTHouse</h3>
     <nav>
       <ul class="nospace inline pushright uppercase">
         <li><a href=""><i class="fa fa-lg fa-home"></i></a></li>
-		  <li><a href="page/about.php">About Us</a></li>
-          <li><a href="page/gallery.php">Gallery</a></li>
-          <li><a href="page/news.php">News</a></li>
-          <li><a href="page/events.php">Events</a></li>
-          <li><a href="page/contact.php">Contact Us</a></li>
+		  <li><a href="./about.php">About Us</a></li>
+          <li><a href="./gallery.php">Gallery</a></li>
+          <li><a href="./news.php">News</a></li>
+          <li><a href="./events.php">Events</a></li>
+          <li><a href="./contact.php">Contact Us</a></li>
       </ul>
     </nav>
     <ul class="faico clear">
@@ -278,7 +279,6 @@ include "../../inc/emailinc.php";
       <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
       <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
       <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-      <li><a class="faicon-vk" href="#"><i class="fa fa-twitter"></i></a></li>
     </ul>
     <!-- ################################################################################################ -->
   </footer>
@@ -299,10 +299,10 @@ include "../../inc/emailinc.php";
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
-<script src="layout/scripts/jquery.flexslider-min.js"></script>
-<script src="../../js/custom-file-input.js"></script>
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="../layout/scripts/jquery.flexslider-min.js"></script>
+<script src="../../../js/custom-file-input.js"></script>
 </body>
 </html>

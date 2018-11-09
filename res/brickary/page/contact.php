@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <!--
-Template Name: Mmarthouse
+Template Name: mmARTHouse
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
 Author URI: http://www.os-templates.com/
 Licence: Free to use under our free template licence terms
@@ -10,7 +10,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Mmarthouse | Pages | Contact</title>
+<title>mmARTHouse | Pages | Contact</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -33,7 +33,7 @@ Licence URI: http://www.os-templates.com/template-terms
     </div>
     <div class="fl_right">
       <ul>
-        <li><a href="../"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="./"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
 		<li><label for="modal-toggle">Login / Sign up</label></li>  
       </ul>
     </div>
@@ -102,11 +102,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="../">Mmarthouse</a></h1>
+        <h1><a href="./">mmARTHouse</a></h1>
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-		  <li><a href="../">Home</a></li>
+		  <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
 		  <li><a href="news.php">News</a></li>
@@ -123,7 +123,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <section id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="../">Home</a></li>
+      <li><a href="./">Home</a></li>
       <li><a href="contact.php">Contact Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
@@ -212,10 +212,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row4 bgded overlay" style="background-image:url('../../../img/MMArtHouse_40.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <h3 class="heading">Mmarthouse</h3>
+    <h3 class="heading">mmARTHouse</h3>
     <nav>
       <ul class="nospace inline pushright uppercase">
-        <li><a href="../"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.php">News</a></li>

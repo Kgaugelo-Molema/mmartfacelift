@@ -4,7 +4,7 @@
 //
 //
 
-$server_dir = "../";
+$server_dir = "./;
 session_start();
 
 require $server_dir.'scripts/config.inc.php';

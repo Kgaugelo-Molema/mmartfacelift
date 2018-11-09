@@ -3,16 +3,11 @@ include "../../../inc/imageuploadinc.php";
 include "../../../inc/dbconfiginc.php";
 include "../../../inc/sessionconfiginc.php";
 include "../../../inc/postmethodsinc.php";
-//include "../../../inc/cmsinc.php";
-$label = '<li><label for="modal-toggle">Login / Sign up ' . $msg . ' </label></li>';
-if (isset($_SESSION["user"])) 
-    $label = '<li><a href="./?doLogoff=true">Logoff ' . $sessionUser . ' </a></li>';
-$label .= $privileges == 2 ? '<li><label for="modal-toggle">Admin</label></li>' : '';
-
+include "../../../inc/cmsinc.php";
 ?>
 <!DOCTYPE html>
 <!--
-Template Name: Mmarthouse
+Template Name: mmARTHouse
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
 Author URI: http://www.os-templates.com/
 Licence: Free to use under our free template licence terms
@@ -20,7 +15,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Mmarthouse | Pages | About</title>
+<title>mmARTHouse | Pages | About</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
@@ -43,7 +38,7 @@ Licence URI: http://www.os-templates.com/template-terms
     </div>
     <div class="fl_right">
       <ul>
-        <li><a href="../"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="./"><i id="hm" class="fa fa-lg fa-home"></i></a></li>
         <?php echo $label ?> 
       </ul>
     </div>
@@ -121,11 +116,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
-        <h1><a href="../">Mmarthouse</a></h1>
+        <h1><a href="./">mmARTHouse</a></h1>
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-		  <li><a href="../">Home</a></li>
+		  <li><a href="./">Home</a></li>
           <li class="active"><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
 		  <li><a href="news.php">News</a></li>
@@ -142,7 +137,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <section id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
-      <li><a href="../">Home</a></li>
+      <li><a href="./">Home</a></li>
       <li><a href="#">About Us</a></li>
     </ul>
     <!-- ################################################################################################ -->
@@ -166,9 +161,9 @@ Licence URI: http://www.os-templates.com/template-terms
             <h3 class="heading">We Love art, We Collect art, Let’s Share art</h3>
             <p>The Muzi Mavuso Art House – Affectionately known as mmArtHouse is a private home of Muzi Mavuso, who is a passionate collector of contemporary art by young emerging artists. The ArtHouse looks to provide a lucrative platform for young artists and collectors to share their works with the public. Young curators will also have the opportunity to utilize the house for private exhibitions and art talks.</p>
 
-			<p>Mmarthouse aspires  to provide a unique experience, which is intimate and personal for our guests. We pride ourselves on our artists and know that everyone who visits mmArtHouse will find a work of art that connects with them.</p>
+			<p>mmARTHouse aspires  to provide a unique experience, which is intimate and personal for our guests. We pride ourselves on our artists and know that everyone who visits mmArtHouse will find a work of art that connects with them.</p>
 
-			<p>Mmarthouse is also utilised as an events venue for those that look to have artistic background to their event. Have your guests captured and mesmerised  by every piece of our art while you entertain your guests be it a launch party, birthday party, the ArtHouse will cater for your needs.</p>
+			<p>mmARTHouse is also utilised as an events venue for those that look to have artistic background to their event. Have your guests captured and mesmerised  by every piece of our art while you entertain your guests be it a launch party, birthday party, the ArtHouse will cater for your needs.</p>
             <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
           </article>
         </li>
@@ -187,10 +182,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row4 bgded overlay" style="background-image:url('../../../img/MMArtHouse_40.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <h3 class="heading">Mmarthouse</h3>
+    <h3 class="heading">mmARTHouse</h3>
     <nav>
       <ul class="nospace inline pushright uppercase">
-        <li><a href="../"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="news.php">News</a></li>

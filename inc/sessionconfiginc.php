@@ -8,7 +8,7 @@
 	echo '<!DOCTYPE html>';
 	echo '<html>';
 	echo '<head>';
-	echo '<title>Mmarthouse - Logoff</title>';
+	echo '<title>mmARTHouse - Logoff</title>';
 	echo '<meta charset="utf-8">';
 	echo '<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">';
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">';
@@ -24,7 +24,7 @@
     $sessionUser = '';
     $privileges = 0;  
     if (isset($_SESSION["user"])) {
-    $sessionUser = $_SESSION["user"];
-    $privileges = $_SESSION["Privileges"];
+        $sessionUser = $_SESSION["user"];
+        $privileges = $_SESSION["Privileges"];
     }
 ?>
