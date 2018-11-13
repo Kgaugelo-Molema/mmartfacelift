@@ -1,4 +1,1 @@
-
-<script>
-    window.location = "res/comingsoon/";
-</script>    
+<?php header('Location:./res/brickary/page/'); ?>
