@@ -27,6 +27,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link href="../layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
 <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -162,27 +163,28 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="gallery">
-        <figure>
+      <figure>
           <header class="heading">Fine Art</header>
-          <ul class="nospace clear">
+          <ul class="nospace clear"> 
+            <iframe src="../../photo/" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
 		  
 		  
 <?php						
-	$directory = "../../../gallery";
-	$images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
-	$count = 1;
-	$liClass = '"one_quarter first"';
-	foreach($images as $image)
-	{
-		$li = '<li class='.$liClass.'><a href="#"><img src="'.$image.'" alt=""></a></li>';
-		$liClass = ($count % 4 == 0) ? '"one_quarter first"' : '"one_quarter"';
-		$count += 1;
-		echo $li;
-	}
+	// $directory = "../../../gallery";
+	// $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
+	// $count = 1;
+	// $liClass = '"one_quarter first"';
+	// foreach($images as $image)
+	// {
+	// 	$li = '<li class='.$liClass.'><a href="#"><img src="'.$image.'" alt=""></a></li>';
+	// 	$liClass = ($count % 4 == 0) ? '"one_quarter first"' : '"one_quarter"';
+	// 	$count += 1;
+	// 	echo $li;
+	// }
 ?>
           </ul>
         </figure>
-      </div>
+      </div> 
       <!-- ################################################################################################ -->
       <!-- ################################################################################################ -->
       <!--<nav class="pagination">

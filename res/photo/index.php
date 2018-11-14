@@ -53,10 +53,10 @@
 	<div id="fh5co-page">
 	
 	<div class="aside-toggle btn-circle">
-		<a href="#"><span></span><em>About</em></a>
+		<!-- <a href="#"><span></span><em>About</em></a> -->
 	</div>
 	<div class="back-to-home btn-circle">
-		<a href="../../imageupload.php"><span></span><em>Upload</em></a>
+		<!-- <a href="../../imageupload.php"><span></span><em>Upload</em></a> -->
 	</div>
 
 	<div id="fh5co-aside">
