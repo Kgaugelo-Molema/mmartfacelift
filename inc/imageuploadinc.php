@@ -1,5 +1,5 @@
 <?php
-    $album = isset($_GET["album"]) ? $_GET["album"] : "Photos";
+    $album = isset($_GET["album"]) ? $_GET["album"] : "Uploads";
    // if ($_SERVER['REQUEST_METHOD'] == 'POST')
    // {
        // if (!isset($_POST["env"])) {
@@ -27,8 +27,7 @@
 		$file_size = $_FILES['file-6']['size'];
 		$file_type = $_FILES['file-6']['type'];
 
-
-	$folder = isset($_POST['imgfolder']) ? $_POST['imgfolder'] : "../../gallery/";			
+	$folder = isset($_POST['imgfolder']) ? $_POST['imgfolder'] : "../../$album/";			
 	 move_uploaded_file($file_loc,$folder.$targetfilename);
 
 	 // Valid file extensions
@@ -40,7 +39,7 @@
 	 if( in_array($file_type,$extensions_arr) ){
 
 					$notify = "Image uploaded successfully.";
-					$gal = isset($_POST['gallerypage']) ? $_POST['gallerypage'] : "page/gallery.php";
+					$gal = isset($_POST['gallerypage']) ? $_POST['gallerypage'] : "gallery.php";
                     header("Location:$gal");
 	 } 
 	}

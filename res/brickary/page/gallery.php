@@ -69,7 +69,7 @@ Licence URI: http://www.os-templates.com/template-terms
 				   </div>
            <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
             <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
-            <input type="hidden" value="../../../gallery/" name="imgfolder">
+            <input type="hidden" value="../../../<?php echo $album ?>/" name="imgfolder">
             <input type="hidden" value="./gallery.php" name="gallerypage">
             <div class="js">
 <?php            
