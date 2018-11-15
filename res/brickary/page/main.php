@@ -113,7 +113,7 @@ include "../../../inc/emailinc.php";
 <div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
-    <header id="header" class="hoc clear"> 
+    <header id="header" class="hoc clear" style="max-width:1000px;"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
                 <a href="./"><img src="../../../img/logoinsta3.jpg"></a>
@@ -123,7 +123,7 @@ include "../../../inc/emailinc.php";
           <li class="active"><a href="./">Home</a></li>
           <li><a href="./about.php">About Us</a></li>
           <li><a href="./gallery.php">Gallery</a></li>
-          <li><a href="./news.php">News</a></li>
+          <li><a href="./news.php">Our Friends(Artists)</a></li>
           <li><a href="./events.php">Events</a></li>
           <li><a href="./contact.php">Contact Us</a></li>
         </ul>
@@ -135,7 +135,7 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear" style="max-width:1000px"> 
-          <div style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
+          <div class="side-img" style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
@@ -176,7 +176,7 @@ include "../../../inc/emailinc.php";
     <!-- ################################################################################################ -->
   </div>
   <!-- ################################################################################################ -->
-  <div style="margin:-680px 0 0 900px; background:url('../../../img/home_right_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
+  <div class="side-img" style="margin:-680px 0 0 900px; background:url('../../../img/home_right_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
@@ -202,7 +202,7 @@ include "../../../inc/emailinc.php";
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle center">
-      <!-- <h3 class="heading">News</h3>
+      <!-- <h3 class="heading">Our Friends(Artists)</h3>
       <p>mmARTHouse Artists Friends</p> -->
     </div>
     <ul class="nospace group center">
@@ -270,7 +270,7 @@ include "../../../inc/emailinc.php";
         <li><a href=""><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="./about.php">About Us</a></li>
           <li><a href="./gallery.php">Gallery</a></li>
-          <li><a href="./news.php">News</a></li>
+          <li><a href="./news.php">Our Friends(Artists)</a></li>
           <li><a href="./events.php">Events</a></li>
           <li><a href="./contact.php">Contact Us</a></li>
       </ul>

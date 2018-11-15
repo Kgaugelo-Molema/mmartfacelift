@@ -444,3 +444,10 @@ table a, #comments a{background-color:inherit;}
 	#pageintro li article{max-width:none; width:100%;}
 	#pageintro li .heading{font-size:1.6rem;}
 }
+
+@media screen and (max-width: 1200px) {
+	.side-img {
+	  visibility: hidden;
+	  display: none;
+	}
+  }

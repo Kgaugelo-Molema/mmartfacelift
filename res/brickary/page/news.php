@@ -113,7 +113,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
-    <header id="header" class="hoc clear"> 
+    <header id="header" class="hoc clear" style="max-width:1000px;"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
                 <a href="./"><img src="../../../img/logoinsta3.jpg"></a>
@@ -123,7 +123,7 @@ Licence URI: http://www.os-templates.com/template-terms
 		  <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
-		  <li class="active"><a href="news.php">News</a></li>
+		  <li class="active"><a href="news.php">Our Friends(Artists)</a></li>
 		  <li><a href="events.php">Events</a></li>
 		  <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -138,10 +138,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul>
       <li><a href="./">Home</a></li>
-      <li><a href="news.php">News</a></li>
+      <li><a href="news.php">Our Friends(Artists)</a></li>
     </ul>
     <!-- ################################################################################################ -->
-    <h6 class="heading">News</h6>
+    <h6 class="heading">Our Friends(Artists)</h6>
     <!-- ################################################################################################ -->
   </section>
   <!-- ################################################################################################ -->
@@ -150,20 +150,98 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3" style="height:5000px;">
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-	  <div>
-		<article>
-            <h3 class="heading">~ Watch the space ~</h3>
-            <p></p>
-            <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
-          </article>
-        </li>
-	  </div>
+      <div id="pageintro" style="padding:0px;">
+        <div style="height:100%;background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading">The Path to Greatjoy</h3>
+                    <h3>by GreatJoy Ndlovu</h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading" style="color:aquamarine;">Lebohang Motaung</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading" style="color:aquamarine;">Happy Dhlalame</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading" style="color:aquamarine;">Lebohang Sithole</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/dorio.jpeg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading" style="color:aquamarine;">Dario Manjate</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/madlekosi.jpeg');background-size:cover;background-position:center;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading">Mandlenkosi Mavengere</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+        <div style="height:100%;background:url('../../../img/Azael-Langa.jpg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
+          <ul>
+            <li>
+                <article>
+                  <h3 class="heading" style="color:blue;">Azael Langa</h3>
+                    <h3></h3>
+                    <p></p>
+                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                </article>
+            </li>
+          </ul>
+        </div>
+      </div>
       <!-- ################################################################################################ -->
       <!-- ################################################################################################ -->
     </div>
@@ -184,7 +262,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">News</a></li>
+          <li><a href="news.php">Our Friends(Artists)</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
       </ul>

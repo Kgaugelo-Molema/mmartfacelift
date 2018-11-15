@@ -119,7 +119,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
-    <header id="header" class="hoc clear"> 
+    <header id="header" class="hoc clear" style="max-width:1000px;"> 
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
                 <a href="./"><img src="../../../img/logoinsta3.jpg"></a>
@@ -129,7 +129,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
           <li class="active"><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">News</a></li>
+          <li><a href="news.php">Our Friends(Artists)</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -222,7 +222,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">News</a></li>
+          <li><a href="news.php">Our Friends(Artists)</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
       </ul>
