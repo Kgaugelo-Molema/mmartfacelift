@@ -164,7 +164,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <!-- ################################################################################################ -->
       <div id="gallery">
       <figure>
-          <header class="heading">Fine Art</header>
+          <header class="heading">Contemporary Fine Art</header>
           <ul class="nospace clear"> 
             <iframe src="../../boot/bootstrap-4-theme/gallerymmart.php" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
 		  
