@@ -166,7 +166,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <figure>
           <header class="heading">Fine Art</header>
           <ul class="nospace clear"> 
-            <iframe src="../../photo/" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
+            <iframe src="../../boot/bootstrap-4-theme/gallerymmart.php" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
 		  
 		  
 <?php						

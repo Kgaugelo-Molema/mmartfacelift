@@ -86,49 +86,6 @@
                 }
             ?>
                         
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="<?php echo $uploads ?>">
-                                <div href="#lb-gallery2-u" data-slide-to="0" data-toggle="modal">
-                                    <img src="assets/images/gallery00.jpg" alt="">
-                                    <span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="<?php echo $exhibition ?>">
-                                <div href="#lb-gallery2-u" data-slide-to="1" data-toggle="modal">
-							        <img src="assets/images/gallery01.jpg" alt="">
-                                    <span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Creative">
-                                <div href="#lb-gallery2-u" data-slide-to="2" data-toggle="modal">
-                                    <img src="assets/images/gallery02.jpg" alt="">
-                                    <span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated">
-                                <div href="#lb-gallery2-u" data-slide-to="3" data-toggle="modal">
-                                    <img src="assets/images/gallery03.jpg" alt=""><span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="<?php echo $uploads ?>">
-                                <div href="#lb-gallery2-u" data-slide-to="4" data-toggle="modal">
-                                    <img src="assets/images/gallery04.jpg" alt=""><span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="<?php echo $uploads ?>">
-                                <div href="#lb-gallery2-u" data-slide-to="5" data-toggle="modal">
-                                    <img src="assets/images/gallery05.jpg" alt=""><span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags=""<?php echo $exhibition ?>"">
-                                <div href="#lb-gallery2-u" data-slide-to="6" data-toggle="modal">
-                                    <img src="assets/images/gallery06.jpg" alt=""><span class="icon-focus"></span>
-                                </div>
-                            </div>
-                            <div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated">
-                                <div href="#lb-gallery2-u" data-slide-to="7" data-toggle="modal">
-                                    <img src="assets/images/gallery07.jpg" alt=""><span class="icon-focus"></span>
-                                </div>
-                            </div>
                         </div>
                     </div>
 				<div class="clearfix"></div>
@@ -171,14 +128,6 @@
                 }
             ?>
 
-                            <div class="carousel-item active"><img src="assets/images/gallery00.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery01.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery02.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery03.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery04.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery05.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery06.jpg" alt=""></div>
-                            <div class="carousel-item"><img src="assets/images/gallery07.jpg" alt=""></div>
                         </div>
                         <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery2-u">
                             <span class="mbri-left mbr-iconfont" aria-hidden="true"></span>
