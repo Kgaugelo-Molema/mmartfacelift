@@ -134,7 +134,8 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div id="pageintro" class="hoc clear"> 
+  <div id="pageintro" class="hoc clear" style="max-width:1000px"> 
+          <div style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
@@ -175,6 +176,7 @@ include "../../../inc/emailinc.php";
     <!-- ################################################################################################ -->
   </div>
   <!-- ################################################################################################ -->
+  <div style="margin:-680px 0 0 900px; background:url('../../../img/home_right_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div>
 </div>
 <!-- End Top Background Image Wrapper -->
 <!-- ################################################################################################ -->
@@ -184,7 +186,7 @@ include "../../../inc/emailinc.php";
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div id="introblocks">
+    <div id="introblocks" style="margin:120px 0 0 0;">
       <ul class="nospace group">
       </ul>
     </div>
