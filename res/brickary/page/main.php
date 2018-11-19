@@ -187,9 +187,9 @@ include "../../../inc/emailinc.php";
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div id="introblocks" style="margin:120px 0 0 0;">
-          <iframe scrolling="no" src="../../slider/css-slideshow-24.php"></iframe>
-      <ul class="nospace group">
-      </ul>
+          <iframe scrolling="no" frameborder="0" src="../../slider/css-slideshow-24.php"></iframe>
+      <!-- <ul class="nospace group">
+      </ul> -->
     </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
