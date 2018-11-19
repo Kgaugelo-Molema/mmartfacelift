@@ -6,7 +6,6 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>CSS Slideshow - Outstanding CSS-only slider</title>
-<meta name="description" content="HTML  slideshow.  Responsive, mobile-friendly, full screen, retina-ready, swipe-friendly. Fabulous CSS3 animations and templates. No jQuery" /><link rel="stylesheet" href="styles.min.css" type="text/css"/>
 <style type="text/css">
 #rt-showcase.slider-container { background: #F5F6F8; }
 .slider-container {
@@ -20,7 +19,7 @@
 </style>
 </head>
 <body class="logo-type-preset1 header-headroom-enabled-scroll showcase-bg-transition-top-to-bottom showcase-type-preset1 feature-type-preset1 mainbody-overlay-light extension-type-preset1 footer-overlay-dark copyright-overlay-dark font-family-anacron font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-home -feb14-home" id="scrollheader">
-    <div id="rt-page-surround">
+    <!-- <div id="rt-page-surround">
                 <header id="rt-header-surround" class="scrollheader"><div id="rt-header" class="rt-overlay-light">
                 <div class="rt-container">
                     <div class="rt-grid-3 rt-alpha">
@@ -31,7 +30,7 @@
 </div>
 <div class="rt-grid-9 rt-omega">
         <div class="menu-block">
-        <div class="gf-menu-device-container responsive-type-panel"></div>
+        <div class="gf-menu-device-container responsive-type-panel"></div> -->
 
 
 <!-- BF PROMO -->
@@ -39,7 +38,7 @@
 <!-- BF PROMO -->
 
 <!-- menu -->
-<ul class="gf-menu l1">
+<!-- <ul class="gf-menu l1">
     <li class="active">
         <a class="item" href="demos.html"><i class="icon-th"></i> Live Demos</a>
     </li>
@@ -78,15 +77,15 @@
         </div>
     </li>
     
-</ul>
+</ul> -->
 <!-- /menu -->
-<div class="clear"></div>
-    </div>
+<!-- <div class="clear"></div> -->
+    <!-- </div>
     
 </div>
                     <div class="clear"></div>
                 </div>
-            </div>
+            </div> -->
                     </header>
         
         <!-- slider -->
@@ -112,10 +111,10 @@
 		
 		<ul>
 			<li class="cs_skeleton">
-				<img src="../../Exhibition_Nov18/IMG_20181111_140350.jpg" alt='HTML5 php ordner download slider horizontal ajax' style="width: 100%;">
+				<img src="../../img/home_left.jpeg" alt='HTML5 php ordner download slider horizontal ajax' style="width: 100%;">
 			</li>
 			<li class='num0 img slide'>
-				<img src='../../Exhibition_Nov18/IMG_20181111_140350.jpg' alt='HTML text video images slider remove' title='Wrist Watch' />
+				<img src='../../img/home_left.jpeg' alt='HTML text video images slider remove' title='Wrist Watch' />
 			</li>
 			<li class='num1 img slide'>
 				<img src='../../gallery/mmarthouse_1.jpg' alt='Responsive banner pagination slideshow 3d type' title='Luxury Watch' />
@@ -170,13 +169,13 @@
 		</div>
 		
                     </div>
-                    <div class="clear"></div>
+                    <!-- <div class="clear"></div> -->
                 </div>
             </div>
         </section> 
         <!-- /slider -->
 
-                    <section id="rt-main-surround"><div id="rt-transition">
+                    <!-- <section id="rt-main-surround"><div id="rt-transition">
                 <div id="rt-mainbody-surround">
                                                             <div id="rt-top" class="rt-overlay-light">
                         <div class="rt-container hide-pointer">
@@ -193,12 +192,12 @@
 
 
 
-                    </div>
+                    </div> -->
                           
 
 
 <!-- demos -->
-<div id="rt-utility" class="rt-overlay-light">
+<!-- <div id="rt-utility" class="rt-overlay-light">
                         <div class="rt-container">
                             <div class="rt-grid-12 rt-alpha rt-omega">
 
@@ -224,7 +223,7 @@
                             <span class="sprocket-mosaic-hovercontent" data-content="View Demo"></span>
                         </a>
                     </div>
-                    <div class="sprocket-mosaic-text"><!-- text --></div>
+                    <div class="sprocket-mosaic-text"></div>
                 </div>
             </div>
         </li>
@@ -240,7 +239,7 @@
                             <span class="sprocket-mosaic-hovercontent" data-content="View Demo"></span>
                         </a>
                     </div>
-                    <div class="sprocket-mosaic-text"><!-- text --></div>
+                    <div class="sprocket-mosaic-text"></div>
                 </div>
             </div>
         </li>
@@ -256,7 +255,7 @@
                             <span class="sprocket-mosaic-hovercontent" data-content="View Demo"></span>
                         </a>
                     </div>
-                    <div class="sprocket-mosaic-text"><!-- text --></div>
+                    <div class="sprocket-mosaic-text"></div>
                 </div>
             </div>
         </li>
@@ -272,7 +271,7 @@
                             <span class="sprocket-mosaic-hovercontent" data-content="View Demo"></span>
                         </a>
                     </div>
-                    <div class="sprocket-mosaic-text"><!-- text --></div>
+                    <div class="sprocket-mosaic-text"></div>
                 </div>
             </div>
         </li>
@@ -286,10 +285,10 @@
 </div>
                             <div class="clear"></div>
                         </div>
-                    </div>
+                    </div> -->
 <!-- /demos -->
 <!-- more features -->
-<div id="rt-feature" class="rt-overlay-light">
+<!-- <div id="rt-feature" class="rt-overlay-light">
     <div class="rt-container">
                             <div class="rt-grid-12 rt-alpha rt-omega">
                             <div class="rt-block fp-feature rt-center rt-big-title">
@@ -304,12 +303,11 @@
 <div class="gantry-width-80 gantry-width-block rt-center rt-margin-auto">
     <p>Develop eye-catching image sliders entirely in CSS. No JavaScript, no jQuery, no picture icons, no  programming! It's really smooth, lightweight, responsive, and retina-ready. Runs fine on all modern devices and internet browsers. KenBurns, Slide, Fade, Zoom transitions and a bunch of  designs are included. Get a free slider builder for Windows and Mac now!</p>
 </div>
-<!-- download -->
+
 <div class="rt-readon-row">
     <a href="cssslider-win-setup.html" class="readon rt-large-button download-button download-for-win"><span class="icon-windows"></span> Download for Win</a>
     <a href="cssslider-mac-setup.html" class="readon rt-large-button download-button"><span class="icon-apple"></span> Download for Mac</a>
 </div>
-<!-- /download -->
 
 <div class="clear"></div>
 
@@ -377,9 +375,9 @@
     <div class="clear"></div>
     </div>
 </div>
-<!-- /more features -->
 
-<!-- content -->
+
+
 <div id="rt-content" class="rt-overlay-light">
     <div class="rt-container">
         <div class="rt-grid-12 rt-alpha rt-omega">
@@ -414,14 +412,14 @@ Bootstrap Skin Css Slideshow</h2>
         </div>
         <div class="clear"></div>
     </div>
-</div>
-<!-- /content -->
+</div> 
 
 
 
                                                         </div>
             </div>
-        </section><footer id="rt-footer-surround">
+        </section> -->
+        <!-- <footer id="rt-footer-surround">
         </footer><div id="rt-copyright" class="rt-overlay-dark">
             <div class="rt-container">
                 <div class="rt-grid-4 rt-alpha">
@@ -445,26 +443,26 @@ Bootstrap Skin Css Slideshow</h2>
         
         
         
-                                    </div>
+                                    </div> -->
 
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-51685724-1']);
-_gaq.push(['_setDomainName', '.cssslider.com']);
-_gaq.push(['_setAllowLinker', true]);
-_gaq.push(['_setAllowHash', false]);
-if(document.cookie.match("(^|;\\s)__utma") && !/utmcsr=\(direct\)/.test(unescape(document.cookie))) {
-    _gaq.push(
-    ['_setReferrerOverride', ''],['_setCampNameKey', 'aaan'],['_setCampMediumKey', 'aaam'], 
-    ['_setCampSourceKey', 'aaas'],['_setCampTermKey', 'aaat'],['_setCampContentKey', 'aaac'],
-    ['_setCampCIdKey', 'aaaci'])
-}
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+// var _gaq = _gaq || [];
+// _gaq.push(['_setAccount', 'UA-51685724-1']);
+// _gaq.push(['_setDomainName', '.cssslider.com']);
+// _gaq.push(['_setAllowLinker', true]);
+// _gaq.push(['_setAllowHash', false]);
+// if(document.cookie.match("(^|;\\s)__utma") && !/utmcsr=\(direct\)/.test(unescape(document.cookie))) {
+//     _gaq.push(
+//     ['_setReferrerOverride', ''],['_setCampNameKey', 'aaan'],['_setCampMediumKey', 'aaam'], 
+//     ['_setCampSourceKey', 'aaas'],['_setCampTermKey', 'aaat'],['_setCampContentKey', 'aaac'],
+//     ['_setCampCIdKey', 'aaaci'])
+// }
+// _gaq.push(['_trackPageview']);
+// (function() {
+// var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+// ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+// var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+// })();
 </script>
 </body>
 
