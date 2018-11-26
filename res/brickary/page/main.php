@@ -186,7 +186,7 @@ include "../../../inc/emailinc.php";
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div id="introblocks" style="margin:120px 0 0 0;">
+    <div id="introblocks" style="margin: 40px 0 80px 0;">
           <iframe scrolling="no" frameborder="0" src="../../slider/css-slideshow-24.php"></iframe>
       <!-- <ul class="nospace group">
       </ul> -->

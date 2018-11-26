@@ -186,7 +186,6 @@ Licence URI: http://www.os-templates.com/template-terms
       <li><a class="faicon-instagram" target="_blank" href="http://www.instagram.com/mmarthouse/"><i class="fa fa-instagram"></i></a></li>
       <!-- <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
       <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li> -->
-      ul>
     <!-- ################################################################################################ -->
   </footer>
 </div>
