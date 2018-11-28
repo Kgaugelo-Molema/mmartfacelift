@@ -5,3 +5,9 @@ gallery/
 *.gif
 *.exe
 *.jpeg
+res/brickary/page/log/
+*.min.js
+*.swp
+js/jquery*
+js/magnific*
+js/main.js
