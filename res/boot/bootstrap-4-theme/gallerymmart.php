@@ -30,12 +30,12 @@
 <body>
 <script>var shopcartSettings = {"shopcart_top_offset":120,"side_offset":20,"site_width":1150,"shopcart_icon_color":"#FFFFFF","shopcart_back_color":"#2969b0","shopcart_icon_size":48,"sc_count_color":"#FFFFFF","sc_count_back_color":"#fc26ae","sc_count_size":12,"checkout_button":"Check Out with"};</script>
 
-<section class="mbr-gallery mbr-slider-carousel cid-qv1kAi2cqe" id="gallery2-u" data-rv-view="4287">
+<section class="mbr-gallery mbr-slider-carousel cid-qv1kAi2cqe" id="gallery2-u" data-rv-view="4287" style="padding:10px;">
 
     <div class="container">
         <div>
             <!-- Filter -->
-            <div class="mbr-gallery-filter container gallery-filter-active">
+            <div class="mbr-gallery-filter container gallery-filter-active" style="padding:0;">
                 <ul buttons="0">
                     <li class="mbr-gallery-filter-all">
                         <a class="btn btn-md btn-primary-outline active display-4" href="#">All</a>

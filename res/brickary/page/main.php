@@ -110,7 +110,7 @@ include "../../../inc/emailinc.php";
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg');"> 
+<div class="bgded overlay" style="background-image:url('../../../img/bg_img_2-1.jpg'); color:black;"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear" style="max-width:1000px;"> 
@@ -134,42 +134,47 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div id="pageintro" class="hoc clear" style="max-width:1000px"> 
+  <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0px 0 300px"> 
           <!-- <div class="side-img" style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div> -->
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
         <li>
-          <article>
-            <p>Private space for Artists, Collectors, Curators and Creatives</p>
-            <h3 class="heading">Showroom Event</h3>
-            <p>Exhibition of new paintings</p>
-            <footer>
-              <form class="group" method="post" action="#">
-                <fieldset>
-                  <legend>Sign-Up:</legend>
-                  <input name="email" type="email" value="" placeholder="Email Here&hellip;">
-                  <button class="fa fa-sign-in" type="submit" title="Submit"><em>Submit</em></button>
-                </fieldset>
-              </form>
-            </footer>
-          </article>
+			<div style="background: url('../../../img/home_right_s.jpeg');">
+			  <article style="background:rgba(255,255,255,0.7)">
+				<p>Private space for Artists, Collectors, Curators and Creatives</p>
+				<h3 class="heading">Showroom Event</h3>
+				<p>Exhibition of new paintings</p>
+				<footer>
+				  <form class="group" method="post" action="#">
+					<fieldset>
+					  <legend>Sign-Up:</legend>
+					  <input name="email" type="email" value="" placeholder="Email Here&hellip;">
+					  <button class="fa fa-sign-in" type="submit" title="Submit"><em>Submit</em></button>
+					</fieldset>
+				  </form>
+				</footer>
+			  </article>
+			</div>
         </li>
         <li>
-          <article>
-            <p>*******</p>
-            <h3 class="heading">The Path to Greatjoy</h3>
-            <p>by GreatJoy Ndlovu</p>
-            <footer><a class="btn inverse" href="#">Find out more</a></footer>
-          </article>
+          <div style="background:url('../../../img/GreatJoy12.jpg')">
+			<article style="background:rgba(255,255,255,0.7)">
+				<p>*******</p>
+				<h3 class="heading">The Path to Greatjoy</h3>
+				<p>by GreatJoy Ndlovu</p>
+				<footer><a class="btn inverse" href="#">Find out more</a></footer>
+			</article>
+          </div>
         </li>
         <li>
-          <article>
-            <p>*******</p>
-            <h3 class="heading">Celebrating Africanness</h3>
-            <p>by Ntsikelelo Mzibomvu</p>
-            <footer><a class="btn" href="#">Find out more</a></footer>
-          </article>
+			<div style="background:url('../../../img/mmarthouse-2.jpg');">
+			  <article style="background:rgba(255,255,255,0.7)">
+				<p>*******</p>
+				<h3 class="heading">Celebrating Africanness</h3>
+				<p>by Ntsikelelo Mzibomvu</p>
+				<footer><a class="btn" href="#">Find out more</a></footer>
+			  </article>
         </li>
       </ul>
     </div>
