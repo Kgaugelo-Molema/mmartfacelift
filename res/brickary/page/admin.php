@@ -25,8 +25,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul>
-        <li><i class="fa fa-phone"></i> +27 11 888 9900</li>
-        <li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>
+        <!--<li><i class="fa fa-phone"></i> +27 11 888 9900</li>-->
+        <!--<li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>-->
       </ul>
     </div>
     <div class="fl_right">
@@ -107,7 +107,7 @@ Licence URI: http://www.os-templates.com/template-terms
 		  <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
 		  <li><a href="gallery.php">Gallery</a></li>
-		  <li><a href="news.php">Our Friends(Artists)</a></li>
+		  <li><a href="news.php">Our Friends</a></li>
 		  <li><a href="events.php">Events</a></li>
 		  <li class="active"><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -216,7 +216,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">Our Friends(Artists)</a></li>
+          <li><a href="news.php">Our Friends</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
       </ul>

@@ -27,8 +27,8 @@ include "../../../inc/emailinc.php";
     <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul>
-        <li><i class="fa fa-phone"></i> +27 11 888 9900</li>
-        <li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>
+        <!--<li><i class="fa fa-phone"></i> +27 11 888 9900</li>-->
+        <!--<li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>-->
       </ul>
     </div>
     <div class="fl_right">
@@ -122,8 +122,13 @@ include "../../../inc/emailinc.php";
         <ul class="clear">
           <li class="active"><a href="./">Home</a></li>
           <li><a href="./about.php">About Us</a></li>
-          <li><a href="./gallery.php">Gallery</a></li>
-          <li><a href="./news.php">Our Friends(Artists)</a></li>
+          <li><a class="drop" href="./gallery.php">Gallery</a>
+            <ul>
+              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
+            </ul>
+		  </li>
+          <li><a href="./news.php">Our Friends</a></li>		  
           <li><a href="./events.php">Events</a></li>
           <li><a href="./contact.php">Contact Us</a></li>
         </ul>
@@ -195,7 +200,7 @@ include "../../../inc/emailinc.php";
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle center">
-      <!-- <h3 class="heading">Our Friends(Artists)</h3>
+      <!-- <h3 class="heading">Our Friends</h3>
       <p>mmARTHouse Artists Friends</p> -->
     </div>
     <ul class="nospace group center">
@@ -236,8 +241,8 @@ include "../../../inc/emailinc.php";
       <section class="one_half">
         <h6 class="heading btmspace-50">OPENING HOURS</h6>
         <p>Mon – Fri: By Appointment</p>
-        <p>Sat: 10am – 2pm</p>
-        <p class="btmspace-30">Sun: 10am – 3pm</p>
+        <p>Sat: 11am – 2pm</p>
+        <p class="btmspace-30">Sun: Closed</p>
         <form id="newsletter" method="post" action="#">
           <fieldset>
             <legend>Newsletter:</legend>
@@ -263,7 +268,7 @@ include "../../../inc/emailinc.php";
         <li><a href=""><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="./about.php">About Us</a></li>
           <li><a href="./gallery.php">Gallery</a></li>
-          <li><a href="./news.php">Our Friends(Artists)</a></li>
+          <li><a href="./news.php">Our Friends</a></li>
           <li><a href="./events.php">Events</a></li>
           <li><a href="./contact.php">Contact Us</a></li>
       </ul>

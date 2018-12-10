@@ -38,8 +38,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="fl_left">
       <ul>
-        <li><i class="fa fa-phone"></i> +27 11 888 9900</li>
-        <li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>
+        <!--<li><i class="fa fa-phone"></i> +27 11 888 9900</li>-->
+        <!--<li><i class="fa fa-envelope-o"></i> info@mmarthouse.co.za</li>-->
       </ul>
     </div>
     <div class="fl_right">
@@ -129,7 +129,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
           <li class="active"><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">Our Friends(Artists)</a></li>
+          <li><a href="news.php">Our Friends</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -147,7 +147,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <li><a href="#">Gallery</a></li>
     </ul>
     <!-- ################################################################################################ -->
-    <h6 class="heading">Gallery</h6>
+    <h6 class="heading">Contemporary Fine Art</h6>
     <!-- ################################################################################################ -->
   </section>
   <!-- ################################################################################################ -->
@@ -157,16 +157,16 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="hoc container clear" style="max-width: 100%; margin: 0px 10px 10px 10px;"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="gallery">
       <figure>
-          <header class="heading">Contemporary Fine Art</header>
+          <header class="heading"></header>
           <ul class="nospace clear"> 
-            <iframe src="../../boot/bootstrap-4-theme/gallerymmart.php" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
+            <iframe src="../../boot/bootstrap-4-theme/gallerymmart<?php echo isset($_GET["album"]) ? "_".$_GET["album"] : ""; ?>.php" scrolling="no" style="width:100%;height:700px;border-style:none;"></iframe>
 		  
 		  
 <?php						
@@ -213,7 +213,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4 bgded overlay" style="background-image:url('../../../img/MMArtHouse_40.jpg');">
+<div class="wrapper row4 bgded overlay" style="display:none;background-image:url('../../../img/MMArtHouse_40.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <h3 class="heading">mmARTHouse</h3>
@@ -222,7 +222,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li><a href="./"><i class="fa fa-lg fa-home"></i></a></li>
 		  <li><a href="about.php">About Us</a></li>
           <li><a href="gallery.php">Gallery</a></li>
-          <li><a href="news.php">Our Friends(Artists)</a></li>
+          <li><a href="news.php">Our Friends</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
       </ul>
