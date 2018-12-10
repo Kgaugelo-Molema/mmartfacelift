@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.4.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
   <meta name="description" content="HTML5 Gallery Template - Free Download">
   <title>Free HTML Bootstrap 4 Gallery Template</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">

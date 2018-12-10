@@ -128,7 +128,12 @@ Licence URI: http://www.os-templates.com/template-terms
         <ul class="clear">
           <li><a href="./">Home</a></li>
           <li><a href="about.php">About Us</a></li>
-          <li class="active"><a href="gallery.php">Gallery</a></li>
+          <li class="active drop"><a href="gallery.php">Gallery</a>
+            <ul>
+              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
+            </ul>
+		  </li>
           <li><a href="news.php">Our Friends</a></li>
           <li><a href="events.php">Events</a></li>
           <li><a href="contact.php">Contact Us</a></li>
@@ -144,10 +149,10 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul>
       <li><a href="./">Home</a></li>
-      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Gallery <?php echo isset($_GET["album"]) ? " | ".$_GET["album"] : ""; ?> </a></li>
     </ul>
     <!-- ################################################################################################ -->
-    <h6 class="heading">Contemporary Fine Art</h6>
+    <h6 class="heading">Contemporary Fine Art</h6> <div class="fl_right"><a target="_blank" href="../../boot/bootstrap-4-theme/gallerymmart<?php echo isset($_GET["album"]) ? "_".$_GET["album"] : ""; ?>.php">Full screen</a></div>
     <!-- ################################################################################################ -->
   </section>
   <!-- ################################################################################################ -->

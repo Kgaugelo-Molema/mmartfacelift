@@ -122,7 +122,12 @@ Licence URI: http://www.os-templates.com/template-terms
         <ul class="clear">
 		  <li><a href="./">Home</a></li>
           <li class="active"><a href="about.php">About Us</a></li>
-		  <li><a href="gallery.php">Gallery</a></li>
+          <li><a class="drop" href="./gallery.php">Gallery</a>
+            <ul>
+              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
+            </ul>
+		  </li>
 		  <li><a href="news.php">Our Friends</a></li>
 		  <li><a href="events.php">Events</a></li>
 		  <li><a href="contact.php">Contact Us</a></li>
