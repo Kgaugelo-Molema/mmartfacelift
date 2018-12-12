@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
   <meta name="description" content="HTML5 Gallery Template - Free Download">
-  <title>Free HTML Bootstrap 4 Gallery Template</title>
+  <title>mmARTHouse | Pages | Gallery | Archive</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">

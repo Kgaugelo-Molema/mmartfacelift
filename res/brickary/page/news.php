@@ -21,6 +21,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <link href="../layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link href="../layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
+<link href="../layout/styles/login.css" rel="stylesheet" type="text/css" media="all">
 <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
 </head>
 <body id="top">
@@ -162,7 +163,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="pageintro" style="padding:0px;">
-        <div style="height:100%;background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -174,7 +175,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -186,7 +187,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -198,7 +199,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -210,7 +211,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/dorio.jpeg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/dorio.jpeg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -222,7 +223,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/madlekosi.jpeg');background-size:cover;background-position:center;">
+        <div class="thumbnail" style="background:url('../../../img/madlekosi.jpeg');background-size:cover;background-position:center;">
           <ul>
             <li>
                 <article>
@@ -234,7 +235,7 @@ Licence URI: http://www.os-templates.com/template-terms
             </li>
           </ul>
         </div>
-        <div style="height:100%;background:url('../../../img/Azael-Langa.jpg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
+        <div class="thumbnail" style="background:url('../../../img/Azael-Langa.jpg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
           <ul>
             <li>
                 <article>
