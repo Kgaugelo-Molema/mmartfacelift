@@ -462,7 +462,6 @@ table a, #comments a{background-color:inherit;}
 	margin: 10px;
 	border-radius: .25rem;
 	border: 1px solid #dee2e6;
-	cursor: pointer;
 }  
 
 .container .content #pageintro .thumbnail  li .heading{
@@ -470,3 +469,22 @@ table a, #comments a{background-color:inherit;}
 	word-wrap:break-word;
 	font-size:unset;
 }
+
+.container .content #pageintro .thumbnail  li .btn.inverse:hover {
+	color:#ffffff;
+	background-color: #00000073;
+	border-radius: unset;
+	border: none;
+}
+
+.container .content #pageintro .thumbnail  li .btn.inverse {
+	color: #000000;
+	border-radius: unset;
+	border: none;
+	background-color: #ffffff73;
+	cursor: pointer;
+}
+
+.container .content #pageintro .thumbnail  li article {
+	max-width: 100%;
+}	

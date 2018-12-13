@@ -105,6 +105,68 @@ Licence URI: http://www.os-templates.com/template-terms
 		</div>        		
 	<!--END-->		
     <!-- ################################################################################################ -->
+		<input id="modal-toggle-artist" type="checkbox">
+		<label class="modal-backdrop-artist" for="modal-toggle-artist"></label>
+		<div class="modal-content-artist">
+			<label class="modal-close-btn" for="modal-toggle-artist">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+	<!--  LOG IN  -->
+				<input class="radio" id="tab-1-artist" name="tabs-name-artist" type="radio" checked>
+				<label for="tab-1-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
+				<div class="tabs-content-artist">
+				   <div class="login_socnet">
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
+				   </div>
+           <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
+            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
+            <input type="hidden" value="../../../gallery/" name="imgfolder">
+            <input type="hidden" value="./gallery.php" name="gallerypage">
+            <div class="js">
+<?php            
+            include "../../../inc/tab1inc.php";
+?>             
+            </div>
+				   </form>
+				   <form class="forgot-password" action="">
+					   <input id="forgot-password-toggle-artist" type="checkbox">
+<?php
+            if (!isset($_SESSION["user"]))              
+             //echo '<label for="forgot-password-toggle">forgot password?</label>';
+?>             
+					   <div class="forgot-password-content-artist">
+						   <input type="email" placeholder="enter your email" required>
+						   <input type="submit" value="go">
+					   </div>
+				   </form>
+				</div>
+	<!--  SIGN UP  -->
+				<input class="radio" id="tab-2-artist" name="tabs-name-artists" type="radio">
+				<label for="tab-2-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
+				<div class="tabs-content-artist">
+					<div class="login_socnet">
+					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
+					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
+					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
+				   </div>
+				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+           <div class="js">
+<?php            
+            include "../../../inc/tab2inc.php";
+?>             
+            </div>
+				   </form>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
+    <!-- ################################################################################################ -->
   </div>
 </div>
 <!-- ################################################################################################ -->
@@ -167,10 +229,11 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading">The Path to Greatjoy</h3>
-                    <h3>by GreatJoy Ndlovu</h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+                  <h3 class="heading">The Path to Greatjoy<br><br><br></h3>
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
+					</footer>
+                </article>
                 </article>
             </li>
           </ul>
@@ -179,10 +242,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading" style="color:aquamarine;">Lebohang Motaung</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Lebohang Motaung</label>
+					</footer>
                 </article>
             </li>
           </ul>
@@ -191,10 +254,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading" style="color:aquamarine;">Happy Dhlalame</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Happy Dhlalame</label>
+					</footer>
                 </article>
             </li>
           </ul>
@@ -203,10 +266,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading" style="color:aquamarine;">Lebohang Sithole</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Lebohang Sithole</label>
+					</footer>
                 </article>
             </li>
           </ul>
@@ -215,10 +278,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading" style="color:aquamarine;">Dario Manjate</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Dario Manjate</label>
+					</footer>
                 </article>
             </li>
           </ul>
@@ -227,10 +290,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading">Mandlenkosi Mavengere</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
+					</footer>
                 </article>
             </li>
           </ul>
@@ -239,10 +302,10 @@ Licence URI: http://www.os-templates.com/template-terms
           <ul>
             <li>
                 <article>
-                  <h3 class="heading" style="color:blue;">Azael Langa</h3>
-                    <h3></h3>
-                    <p></p>
-                    <!-- <footer><a class="btn inverse" href="#">Find out more</a></footer> -->
+					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
+                    <footer>
+						<label for="modal-toggle-artist" class="btn inverse">Find out more about Azael Langa</label>
+					</footer>
                 </article>
             </li>
           </ul>
