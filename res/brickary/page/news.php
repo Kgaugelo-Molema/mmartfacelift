@@ -105,19 +105,16 @@ Licence URI: http://www.os-templates.com/template-terms
 		</div>        		
 	<!--END-->		
     <!-- ######################### ARTIST MODAL SECTION ################################################# -->
-		<input id="modal-toggle-artist" type="checkbox">
-		<label class="modal-backdrop-artist" for="modal-toggle-artist"></label>
+		<input id="modal-toggle-artist1" type="checkbox">
+		<label class="modal-backdrop-artist" for="modal-toggle-artist1"></label>
 		<div class="modal-content-artist">
-			<label class="modal-close-btn" for="modal-toggle-artist">
+			<label class="modal-close-btn" for="modal-toggle-artist1">
 				  <svg width="50" height="50">
 				<line x1="10" y1="10" x2="40" y2="40"/>
 					<line x1="40" y1="10" x2="10" y2="40"/>
 				  </svg>
 			  </label>
 			<div class="tabs-artist">
-	<!--  LOG IN  -->
-				<input class="radio" id="tab-1-artist" name="tabs-name-artist" type="radio">
-				<label for="tab-1-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content-artist">
 					<div style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
 						<p>Greatjoy Ndlovu was born in Bulawayo, Zimbabwe and currently works from August House studios in Johannesburg.He has been enjoying a steady rise into art world prominence within South Africa with exhibitions at national art fairs and galleries. His current body of work focuses on portraiture and figurative themes.</p>
@@ -127,11 +124,6 @@ Licence URI: http://www.os-templates.com/template-terms
 					</div>
 				</div>
 	<!--  SIGN UP  -->
-				<input class="radio" id="tab-2-artist" name="tabs-name-artists" type="radio">
-				<label for="tab-2-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
-				<div class="tabs-content-artist">
-					<p>TAB 2 CONTENT</p>
-				</div>
 			</div>
 		</div>        		
 	<!--END-->		
@@ -200,7 +192,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
                   <h3 class="heading">The Path to Greatjoy<br><br><br></h3>
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
 					</footer>
                 </article>
                 </article>
@@ -213,7 +205,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Lebohang Motaung</label>
+						<label for="modal-toggle-artist2" class="btn inverse">Find out more about Lebohang Motaung</label>
 					</footer>
                 </article>
             </li>
@@ -225,7 +217,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Happy Dhlalame</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Happy Dhlalame</label>
 					</footer>
                 </article>
             </li>
@@ -237,7 +229,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Lebohang Sithole</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Lebohang Sithole</label>
 					</footer>
                 </article>
             </li>
@@ -249,7 +241,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Dario Manjate</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Dario Manjate</label>
 					</footer>
                 </article>
             </li>
@@ -261,7 +253,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
 					</footer>
                 </article>
             </li>
@@ -273,7 +265,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist" class="btn inverse">Find out more about Azael Langa</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Azael Langa</label>
 					</footer>
                 </article>
             </li>
