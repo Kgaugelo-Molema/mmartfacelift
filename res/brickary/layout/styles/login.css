@@ -108,6 +108,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translateX(125%);
 }
 
+.modal-content-artist {
+  width: 50%;		
+}
+
 .modal-backdrop,
 .modal-backdrop-artist {
   left: 0;
@@ -188,6 +192,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .tabs-artist > .radio:checked + .table + .tabs-content-artist {
   display: block;
 }
+
+.tabs-artist > .radio:checked + .table + .tabs-content-artist {
+	background-color: white;
+}
+	
 .tabs > .table,
 .tabs-artist > .table {
   order: -1;
@@ -332,6 +341,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .tabs > .tabs-content .forgot-password label:hover,
 .tabs-artist > .tabs-content-artist .forgot-password label:hover {
   text-decoration: underline;
+}
+
+#topbar .tabs-artist > .tabs-content-artist p {
+	color: black;
+	padding: 10px;
+	background: #ffffffd9;
 }
 
 /*  END style login & sign up  */

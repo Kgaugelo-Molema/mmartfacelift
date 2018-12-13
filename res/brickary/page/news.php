@@ -119,49 +119,18 @@ Licence URI: http://www.os-templates.com/template-terms
 				<input class="radio" id="tab-1-artist" name="tabs-name-artist" type="radio">
 				<label for="tab-1-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content-artist">
-				   <div class="login_socnet">
-					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
-					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
-				   </div>
-           <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype='multipart/form-data'>
-            <input type="hidden" value="<?php echo $_SERVER['PHP_SELF'] ?>" name="location">
-            <input type="hidden" value="../../../gallery/" name="imgfolder">
-            <input type="hidden" value="./gallery.php" name="gallerypage">
-            <div class="js">
-<?php            
-            include "../../../inc/tab1inc.php";
-?>             
-            </div>
-				   </form>
-				   <form class="forgot-password" action="">
-					   <input id="forgot-password-toggle" type="checkbox">
-<?php
-            if (!isset($_SESSION["user"]))              
-             //echo '<label for="forgot-password-toggle">forgot password?</label>';
-?>             
-					   <div class="forgot-password-content">
-						   <input type="email" placeholder="enter your email" required>
-						   <input type="submit" value="go">
-					   </div>
-				   </form>
+					<div style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
+						<p>Greatjoy Ndlovu was born in Bulawayo, Zimbabwe and currently works from August House studios in Johannesburg.He has been enjoying a steady rise into art world prominence within South Africa with exhibitions at national art fairs and galleries. His current body of work focuses on portraiture and figurative themes.</p>
+						<p>The artist explores are variety of materials and techniques to develop his unique, post expressionistic style that is set to make him one of the sought after African artists to achieve international acclaim.</p>
+						<p>Ndlovu expresses his inner emotional world rather than depicting an external reality. There is a range of essential human emotions here that cannot be expressed in abstract and conceptual art; the figures suggest a mixture of wonder, mourning, hope and hues of happiness. splashes of primal colour in contrast to subtle, earthy shades and the uncomplicated body language of subjects seem to express the inner tension of an entire continent, torn between a traditional lifestyle from the past and a fast paced, hi-tech now.</p>
+						<p>Ndlovu’s work starts from lighthearted, experimental sketches that develop into large scale, detailed works or even an entire series without loosing an experimental element that so characterizes his work.</p>
+					</div>
 				</div>
 	<!--  SIGN UP  -->
 				<input class="radio" id="tab-2-artist" name="tabs-name-artists" type="radio">
 				<label for="tab-2-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Sign up" : "Events"; ?></span></label>
 				<div class="tabs-content-artist">
-					<div class="login_socnet">
-					   <!-- <a href="" class="fa fa-twitter" aria-hidden="true"></a>
-					   <a href="" class="fa fa-google-plus" aria-hidden="true"></a>
-					   <a href="" class="fa fa-facebook" aria-hidden="true"></a> -->
-				   </div>
-				   <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
-           <div class="js">
-<?php            
-            include "../../../inc/tab2inc.php";
-?>             
-            </div>
-				   </form>
+					<p>TAB 2 CONTENT</p>
 				</div>
 			</div>
 		</div>        		
