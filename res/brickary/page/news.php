@@ -104,7 +104,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
-    <!-- ################################################################################################ -->
+    <!-- ######################### ARTIST MODAL SECTION ################################################# -->
 		<input id="modal-toggle-artist" type="checkbox">
 		<label class="modal-backdrop-artist" for="modal-toggle-artist"></label>
 		<div class="modal-content-artist">
@@ -116,7 +116,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			  </label>
 			<div class="tabs-artist">
 	<!--  LOG IN  -->
-				<input class="radio" id="tab-1-artist" name="tabs-name-artist" type="radio" checked>
+				<input class="radio" id="tab-1-artist" name="tabs-name-artist" type="radio">
 				<label for="tab-1-artist" class="table"><span><?php echo !isset($_SESSION["user"]) ? "Login" : "Gallery"; ?></span></label>
 				<div class="tabs-content-artist">
 				   <div class="login_socnet">
@@ -135,12 +135,12 @@ Licence URI: http://www.os-templates.com/template-terms
             </div>
 				   </form>
 				   <form class="forgot-password" action="">
-					   <input id="forgot-password-toggle-artist" type="checkbox">
+					   <input id="forgot-password-toggle" type="checkbox">
 <?php
             if (!isset($_SESSION["user"]))              
              //echo '<label for="forgot-password-toggle">forgot password?</label>';
 ?>             
-					   <div class="forgot-password-content-artist">
+					   <div class="forgot-password-content">
 						   <input type="email" placeholder="enter your email" required>
 						   <input type="submit" value="go">
 					   </div>
