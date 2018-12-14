@@ -105,10 +105,11 @@ Licence URI: http://www.os-templates.com/template-terms
 		</div>        		
 	<!--END-->		
     <!-- ######################### ARTIST MODAL SECTION ################################################# -->
-		<input id="artist1" class="modal-toggle-artist" type="checkbox">
-		<label class="modal-backdrop-artist" for="artist1"></label>
-		<div class="modal-content-artist">
-			<label class="modal-close-btn" for="artist1">
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist1" type="checkbox">
+		<label class="modal-backdrop-artist1" for="modal-toggle-artist1"></label>
+		<div class="modal-content-artist1">
+			<label class="modal-close-btn" for="modal-toggle-artist1">
 				  <svg width="50" height="50">
 				<line x1="10" y1="10" x2="40" y2="40"/>
 					<line x1="40" y1="10" x2="10" y2="40"/>
@@ -123,7 +124,26 @@ Licence URI: http://www.os-templates.com/template-terms
 						<p>Ndlovu’s work starts from lighthearted, experimental sketches that develop into large scale, detailed works or even an entire series without loosing an experimental element that so characterizes his work.</p>
 					</div>
 				</div>
-	<!--  SIGN UP  -->
+			</div>
+		</div>        		
+	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist2" type="checkbox">
+		<label class="modal-backdrop-artist2" for="modal-toggle-artist2"></label>
+		<div class="modal-content-artist2">
+			<label class="modal-close-btn" for="modal-toggle-artist2">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+						<p>Lebohang Motaung is a fine artist and a hairstylist. Plaiting hair has always been part of her life. Over the years it went from just a tool of making money to her area of research and art practice. She became more fascinated by arrangements, patterns, colour and different textures. In her work, she focuses on the activity and process of doing hair.</p>
+						<p>In her work, she uses a wide range of mediums. From linocut, etching, paper making and synthetic hair on paper. With her etching works, she presents the timeous laborious process that she goes through when plaiting hair. In her recent work, she makes portraits using hair, where she talks about how a person’s hair can be a symbol of one’s identity, and how it has the power to dictate how a person is seen. She uses human hair and synthetic hair to portray her subject matter. She is influenced by the conversations she had with her clients when she was still a fulltime hairstylist.</p>
+					</div>
+				</div>
 			</div>
 		</div>        		
 	<!--END-->		
@@ -192,7 +212,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
                   <h3 class="heading">The Path to Greatjoy<br><br><br></h3>
                     <footer>
-						<label for="artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
+						<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
 					</footer>
                 </article>
                 </article>

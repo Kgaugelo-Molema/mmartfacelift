@@ -77,14 +77,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
 }
 
-#modal-toggle, .modal-toggle-artist {
+#modal-toggle, 
+#modal-toggle-artist1,
+#modal-toggle-artist2 {
   display: none;
 }
 
 .modal-content,
 .modal-backdrop,
-.modal-content-artist,
-.modal-backdrop-artist {
+.modal-content-artist1,
+.modal-backdrop-artist1,
+.modal-content-artist2,
+.modal-backdrop-artist2 {
   opacity: 0;
   position: fixed;
   z-index: -1;
@@ -94,7 +98,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .modal-content,
-.modal-content-artist {
+.modal-content-artist1,
+.modal-content-artist2 {
   top: 0;
   bottom: 0;
   margin: auto!important;
@@ -108,12 +113,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translateX(125%);
 }
 
-.modal-content-artist {
+.modal-content-artist1,
+.modal-content-artist2 {
   width: 50%;		
 }
 
 .modal-backdrop,
-.modal-backdrop-artist {
+.modal-backdrop-artist1,
+.modal-backdrop-artist2 {
   left: 0;
   top: 0;
   height: 100%;
@@ -124,7 +131,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 #modal-toggle:checked ~ .modal-backdrop,
-.modal-toggle-artist:checked ~ .modal-backdrop-artist {
+#modal-toggle-artist1:checked ~ .modal-backdrop-artist1,
+#modal-toggle-artist2:checked ~ .modal-backdrop-artist2 {
   opacity: 1;
   background-color: rgba(0, 70, 62, 0.5);
   z-index: 998;
@@ -132,7 +140,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 #modal-toggle:checked ~ .modal-content,
-.modal-toggle-artist:checked ~ .modal-content-artist {
+#modal-toggle-artist1:checked ~ .modal-content-artist1,
+#modal-toggle-artist2:checked ~ .modal-content-artist2 {
   opacity: 1;
   background-color: #945a5a5c;
   overflow-y: auto;
@@ -145,12 +154,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @media (max-width: 600px) {
   #modal-toggle:checked ~ .modal-backdrop,
-  .modal-toggle-artist:checked ~ .modal-backdrop-artist  {
+  #modal-toggle-artist1:checked ~ .modal-backdrop-artist1,
+  #modal-toggle-artist2:checked ~ .modal-backdrop-artist2 {
     opacity: 0;
   }
 
   .modal-content,
-  .modal-content-artist {
+  .modal-content-artist1,
+  .modal-content-artist2  {
     top: 0;
     left: 0;
     height: 100vh;
