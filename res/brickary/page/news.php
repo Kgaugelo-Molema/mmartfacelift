@@ -182,6 +182,25 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist4" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist4"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist4">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
+						<p>Lebohang has exhibited his prints in numerous galleries and other spaces including the ABSA L’Atelier competition show, Arts on Main, Sandton Gallery, Jorbug Art Fair, and at Sharon Simpson Studio’s annual show. Most recently, he was part of a three-person show with Sizwe Khoza and Dzunisani Maluleke, called “Hiya Kwini?”(Where to?) Lebohang has worked with Sonke Gender Justice, a well-known NGO dealing with gender equality and other issues.</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -284,7 +303,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Lebohang Sithole</label>
+						<label for="modal-toggle-artist4" class="btn inverse">Find out more about Lebohang Sithole</label>
 					</footer>
                 </article>
             </li>

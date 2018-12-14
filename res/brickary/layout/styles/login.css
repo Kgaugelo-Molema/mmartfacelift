@@ -80,7 +80,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle, 
 #modal-toggle-artist1,
 #modal-toggle-artist2,
-#modal-toggle-artist3 {
+#modal-toggle-artist3,
+#modal-toggle-artist4 {
   display: none;
 }
 
@@ -125,7 +126,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle:checked + .modal-backdrop,
 #modal-toggle-artist1:checked + .modal-backdrop,
 #modal-toggle-artist2:checked + .modal-backdrop,
-#modal-toggle-artist3:checked + .modal-backdrop {
+#modal-toggle-artist3:checked + .modal-backdrop,
+#modal-toggle-artist4:checked + .modal-backdrop {
   opacity: 1;
   background-color: rgba(0, 70, 62, 0.5);
   z-index: 998;
@@ -135,7 +137,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle:checked + .modal-backdrop + .modal-content,
 #modal-toggle-artist1:checked + .modal-backdrop + .modal-content,
 #modal-toggle-artist2:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist3:checked + .modal-backdrop + .modal-content {
+#modal-toggle-artist3:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist4:checked + .modal-backdrop + .modal-content {
   opacity: 1;
   background-color: #945a5a5c;
   overflow-y: auto;
@@ -154,7 +157,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #modal-toggle-artist2:checked + .modal-backdrop,
   #modal-toggle-artist2:checked + .modal-backdrop + .modal-content,
   #modal-toggle-artist3:checked + .modal-backdrop,
-  #modal-toggle-artist3:checked + .modal-backdrop + .modal-content {
+  #modal-toggle-artist3:checked + .modal-backdrop + .modal-content,
+  #modal-toggle-artist4:checked + .modal-backdrop,
+  #modal-toggle-artist4:checked + .modal-backdrop + .modal-content {
     opacity: 0;
   }
 
