@@ -246,6 +246,30 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist6" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist6"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist6">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/madlekosi.jpg');background-size:cover;background-position:center;">
+						<p>My artworks bring into conversation and discussion, the issues of migration in our contemporary society. I travelled from Zimbabwe to South Africa crossing borders, had my identity checked at immigrations, and I arrived to fit-in, in a multi-racial country. My banknote artworks (significantly etchings and linocuts) are a framework within which one can observe the issues of migration with relevance to socio-economic divergence and convergence. The directional lines in the banknotes depict the scatterings people and population displacement; the repetition of patterns symbolize the circumstantial economic system embedded to the stereotyped migrants. The linocut banknotes printed onto fabric (canvas) emphasize the constructed perambulation of the population in search for income and better life.  The figures and portraits (with head gear) painted on money are economically fabricated identities who are fitting into new homeland of occupation versus the home of origin.</p>
+						<p>BIOGRAPHY</p>
+						<p>Mandlenkosi Mavengere b. (1992) in Zimbabwe in Bulawayo (known as city of kings). Mavengere works predominantly in printing and painting. He moved to South Africa after completing his O’level (matric) in Zimbabwe.</p>
+						<p>Thereafter it was in South Africa where he took up art as a career and got enrolled at Artist Proof Studio printmaking course where he completed his 3rd year. Along the printmaking course, his paintings began to be evident as he participated in many shows. Between 2013 – 2015 his work has been exhibited at Black Like Us Exhibition (Parkhurst) and Art Investment in Parkhurst. Mavengere exhibited at the Love-world Festival of Music and Arts held at the Nasrec Arena. His work also features in the 2015 IT-Web Calendar Brainstorm representing IBM. He has been in group exhibitions like Julie Miller Art Investments, Henry George Gallery, Turbine Art Fair, Absa Gallery, and Artist Proof Studio where he had his internship at the gallery.</p>
+						<p>As an intern at Artist Proof Studio He curated an exhibition hosted by Strauss and Co. He was, thereafter recommended for a one-year internship at William Kentridge Studio for the year 2017.</p>
+						<p>His mentorship by William Kentridge has precisely developed his creativity skills from etchings, into sculpturing and prominent linocut banknotes exploring themes consistent with his Migration Concept. Mavengere now runs his own studio as a production and collaborative space. It is based at Constitutional Hill in Johannesburg, South Africa.</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -372,7 +396,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
+						<label for="modal-toggle-artist6" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
 					</footer>
                 </article>
             </li>
