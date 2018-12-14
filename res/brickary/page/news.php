@@ -201,6 +201,51 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist5" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist5"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist5">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/dorio.jpg');background-size:cover;background-position:center;">
+						<p>Dario Manjate’s love of art began at an early age. A love that was further encouraged during the time he attended the Thusong Youth Centre in the Alexandra township, Johannesburg. Manjate creates collages by tearing up old magazines, all the time striving to achieve harmony between the medium and his concepts. Very much aware of how consumerism is feeding the perception that a person is defined by what they own, Manjate, hopes to bring awareness to his audience, encouraging them to look at our consumerist society critically.</p>
+						<p>Born in Mozambique, Manjate Permanently lives in Johannesburg. He has been involved in a number of community projects, such as Work to Win, an environmental awareness project to uplift the township community. In 1996 he was the winner of the Johannesburg Gaulloise Blondes Freedom of Expression Art Competition. Manjate enrolled at Artists Proof Studio in 1998 to improve his skills and studied various printmaking techniques.   He has featured in many group exhibitions locally and abroad with the most recent being Living Artists Emporium, at the Johannesburg Turbine Art Fair (2015). Manjate’s solo exhibition at the MB Studio Gallery, Johannesburg, was titled, Joburg Consumes Me (2015).</p>
+						<p>EXHIBITIONS</p>
+						<p>2018- Decorex -Durban</p>
+						<p>2018- Group exhibition-Daville Baille gallery</p>
+						<p>2017 – Group Exhibition – Ornico Sandton</p>
+						<p>2017 – Group Exhibition in France</p>
+						<p>2017 – Group Exhibition – Jean Cilliers; Lizamore and associates gallery</p>
+						<p>2016 – Group Exhibition – Solstice (ODA Gallery Franshoek )</p>
+						<p>2016 – Group Exhibition – Group show (Tribute to Drew Lindsay – Firehouse Bezvalley )</p>
+						<p>2015 – Solo Exhibition – MB Studio; DA Vinci Hotel</p>
+						<p>2015 – Sandton Convention Centre –EOH</p>
+						<p>2015 – Sandton Convention Centre –Sports Awards</p>
+						<p>2015 – Turbine art fair – Living Artists Emporium</p>
+						<p>2015 –Synprop Gallery –take me to the inner city</p>
+						<p>2015 – Jean Cilliers – Lizzamore and Associates Gallery</p>
+						<p>2015 – Legacy art projects (Durban museum)</p>
+						<p>2014 – Legacy art projects (Polokwane museum)</p>
+						<p>2014 –Turbine art fair (Art Afrique Gallery)</p>
+						<p>2014 – First introductions (Art Afrique Gallery)</p>
+						<p>2014 –Duet with Ronald Muchatuta, building blocks (Art Afrique Gallery)</p>
+						<p>2014 –Dream of African woman (Daville Baillie Gallery )</p>
+						<p>2014 – First introductions (Art Afrique Gallery )</p>
+						<p>2000 – Party Design Johannesburg</p>
+						<p>1999 – IDC Offices Sandton</p>
+						<p>1998 – Artists proof studios</p>
+						<p>1996 – Atlanta Georgia</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -315,7 +360,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Dario Manjate</label>
+						<label for="modal-toggle-artist5" class="btn inverse">Find out more about Dario Manjate</label>
 					</footer>
                 </article>
             </li>
