@@ -105,10 +105,10 @@ Licence URI: http://www.os-templates.com/template-terms
 		</div>        		
 	<!--END-->		
     <!-- ######################### ARTIST MODAL SECTION ################################################# -->
-		<input id="modal-toggle-artist1" type="checkbox">
-		<label class="modal-backdrop-artist" for="modal-toggle-artist1"></label>
+		<input id="artist1" class="modal-toggle-artist" type="checkbox">
+		<label class="modal-backdrop-artist" for="artist1"></label>
 		<div class="modal-content-artist">
-			<label class="modal-close-btn" for="modal-toggle-artist1">
+			<label class="modal-close-btn" for="artist1">
 				  <svg width="50" height="50">
 				<line x1="10" y1="10" x2="40" y2="40"/>
 					<line x1="40" y1="10" x2="10" y2="40"/>
@@ -192,7 +192,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
                   <h3 class="heading">The Path to Greatjoy<br><br><br></h3>
                     <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
+						<label for="artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
 					</footer>
                 </article>
                 </article>
@@ -217,7 +217,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Happy Dhlalame</label>
+						<label for="artist1" class="btn inverse">Find out more about Happy Dhlalame</label>
 					</footer>
                 </article>
             </li>
