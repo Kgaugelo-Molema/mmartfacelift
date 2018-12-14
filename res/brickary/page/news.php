@@ -270,6 +270,26 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist7" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist7"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist7">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/Azael-Langa.jpg');background-size:cover;background-position:center;">
+						<p>Azael Langa grew up in an artistic family, At first he did not adhere to being an artist until he won his first art competition in grade 6. After his primary years he went to an art High school and it was there where he realized that, that was exactly what he wanted to be – an artist.</p>
+						<p>Artists’ statement : To me art is not a day job or career, but it is a lifestyle. My art is about socio-political activism and going about the subject I show the exploitation of the average joe; the corruption of the elite and bringing to the surface that which is of sight like they say “out of sight out of mind” it is also about taking the intangible events, circumstances and becoming a mediator to the public.</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -329,91 +349,105 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="pageintro" style="padding:0px;">
-        <div class="thumbnail" style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-                  <h3 class="heading">The Path to Greatjoy<br><br><br></h3>
-                    <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>
-					</footer>
-                </article>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist2" class="btn inverse">Find out more about Lebohang Motaung</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist3" class="btn inverse">Find out more about Happy Dhlalame</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist4" class="btn inverse">Find out more about Lebohang Sithole</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/dorio.jpeg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist5" class="btn inverse">Find out more about Dario Manjate</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/madlekosi.jpeg');background-size:cover;background-position:center;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist6" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
-        <div class="thumbnail" style="background:url('../../../img/Azael-Langa.jpg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
-          <ul>
-            <li>
-                <article>
-					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
-                    <footer>
-						<label for="modal-toggle-artist1" class="btn inverse">Find out more about Azael Langa</label>
-					</footer>
-                </article>
-            </li>
-          </ul>
-        </div>
+        <label for="modal-toggle-artist1">
+			<div class="thumbnail" style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+					  <h3 class="heading">The Path to Greatjoy<br><br><br><br><br></h3>
+						<footer>
+							<!--<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>-->
+						</footer>
+					</article>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist2">
+			<div class="thumbnail" style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist2" class="btn inverse">Find out more about Lebohang Motaung</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist3">
+			<div class="thumbnail" style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist3" class="btn inverse">Find out more about Happy Dhlalame</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist4">
+			<div class="thumbnail" style="background:url('../../../img/hqdefault.jpg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist4" class="btn inverse">Find out more about Lebohang Sithole</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist5">
+			<div class="thumbnail" style="background:url('../../../img/dorio.jpeg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist5" class="btn inverse">Find out more about Dario Manjate</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist6">
+			<div class="thumbnail" style="background:url('../../../img/madlekosi.jpeg');background-size:cover;background-position:center;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist6" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
+        <label for="modal-toggle-artist7">
+			<div class="thumbnail" style="background:url('../../../img/Azael-Langa.jpg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+						<footer>
+							<!--<label for="modal-toggle-artist7" class="btn inverse">Find out more about Azael Langa</label>-->
+						</footer>
+					</article>
+				</li>
+			  </ul>
+			</div>
+		</label>
       </div>
       <!-- ################################################################################################ -->
       <!-- ################################################################################################ -->

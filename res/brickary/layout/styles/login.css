@@ -83,7 +83,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle-artist3,
 #modal-toggle-artist4,
 #modal-toggle-artist5,
-#modal-toggle-artist6 {
+#modal-toggle-artist6,
+#modal-toggle-artist7 {
   display: none;
 }
 
@@ -111,9 +112,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translateX(125%);
 }
 
-.modal-content {
-  width: 50%;		
-}
+
 
 .modal-backdrop {
   left: 0;
@@ -131,28 +130,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle-artist3:checked + .modal-backdrop,
 #modal-toggle-artist4:checked + .modal-backdrop,
 #modal-toggle-artist5:checked + .modal-backdrop,
-#modal-toggle-artist6:checked + .modal-backdrop {
+#modal-toggle-artist6:checked + .modal-backdrop,
+#modal-toggle-artist7:checked + .modal-backdrop {
   opacity: 1;
   background-color: rgba(0, 70, 62, 0.5);
   z-index: 998;
   transform: scale(1);
-}
-
-#modal-toggle:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist1:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist2:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist3:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist4:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist5:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist6:checked + .modal-backdrop + .modal-content {
-  opacity: 1;
-  background-color: #945a5a5c;
-  overflow-y: auto;
-  overflow-x: hidden;
-  pointer-events: auto;
-  cursor: auto;
-  z-index: 999;
-  transform: translateX(0%);
 }
 
 @media (max-width: 600px) {
@@ -169,7 +152,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #modal-toggle-artist5:checked + .modal-backdrop,
   #modal-toggle-artist5:checked + .modal-backdrop + .modal-content,
   #modal-toggle-artist6:checked + .modal-backdrop,
-  #modal-toggle-artist6:checked + .modal-backdrop + .modal-content {
+  #modal-toggle-artist6:checked + .modal-backdrop + .modal-content,
+  #modal-toggle-artist7:checked + .modal-backdrop,
+  #modal-toggle-artist7:checked + .modal-backdrop + .modal-content {
     opacity: 0;
   }
 
@@ -180,6 +165,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 100vw;
   }
 }
+
+#modal-toggle:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist1:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist2:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist3:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist4:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist5:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist6:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist7:checked + .modal-backdrop + .modal-content {
+  opacity: 1;
+  background-color: #945a5a5c;
+  overflow-y: auto;
+  overflow-x: hidden;
+  pointer-events: auto;
+  cursor: auto;
+  z-index: 999;
+  transform: translateX(0%);
+}
+
 
 .modal-close-btn {
   margin-top: 5px;

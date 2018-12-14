@@ -462,6 +462,7 @@ table a, #comments a{background-color:inherit;}
 	margin: 10px;
 	border-radius: .25rem;
 	border: 1px solid #dee2e6;
+	cursor: pointer;
 }  
 
 .container .content #pageintro .thumbnail  li .heading{
@@ -484,6 +485,7 @@ table a, #comments a{background-color:inherit;}
 	background-color: #ffffff73;
 	cursor: pointer;
 }
+
 
 .container .content #pageintro .thumbnail  li article {
 	max-width: 100%;
