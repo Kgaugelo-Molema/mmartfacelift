@@ -147,6 +147,41 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist3" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist3"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist3">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+						<p>Happy Dhlame, He is a South African born artist born in Soweto Johannesburg. His work ranges from Painting, Installation and video installation that mostly comment on his social urban. It unmasks existing codes on conditions in conventional art. It revives around abandoned building structures in the inner city. Interior and exterior spaces of decomposing structure, urban landscape furniture in certain vicinities as well as people inhabiting in such spaces. Thus, may be understood as the combined visual and spatial component of art production.</p>
+						<p>Achievements</p>
+						<p>Hansjoeg Wyss award (Switzerland)</p>
+						<p>Rendez vous award (France)</p>
+						<p>Collectors</p>
+						<p>MAP (Modern Art Project)</p>
+						<p>Gauteng legislature</p>
+						<p>SAP (System Application Products)</p>
+						<p>Parliament Ministers</p>
+						<p>M & C Saatchi</p>
+						<p>Hollard Insurance</p>
+						<p>Swiss Development Agency Co operation</p>
+						<p>Swiss Airways Pilot</p>
+						<p>Angolan trade and Industry</p>
+						<p>Hansjoeg Wyss</p>
+						<p>As well as private collector that can`t be disclosed.</p>
+						<p>He also exhibited and had workshops locally and internationally.</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -237,7 +272,7 @@ Licence URI: http://www.os-templates.com/template-terms
                 <article>
 					<h3 class="heading" style="color:aquamarine;"><br><br><br></h3>                    
                     <footer>
-						<label for="artist1" class="btn inverse">Find out more about Happy Dhlalame</label>
+						<label for="modal-toggle-artist3" class="btn inverse">Find out more about Happy Dhlalame</label>
 					</footer>
                 </article>
             </li>
