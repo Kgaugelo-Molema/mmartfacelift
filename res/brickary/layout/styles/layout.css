@@ -454,7 +454,7 @@ table a, #comments a{background-color:inherit;}
 	  display: none;
 	}
   }
-  
+
 .container .content .thumbnail {
 	height: 25%;
 	width: 40%;
@@ -464,6 +464,13 @@ table a, #comments a{background-color:inherit;}
 	border: 1px solid #dee2e6;
 	cursor: pointer;
 }  
+
+@media screen and (max-width:600px){
+	.container .content .thumbnail {
+		width: 100%;
+	}
+}	
+
 
 .container .content #pageintro .thumbnail  li .heading{
 	margin-bottom:30px; 
