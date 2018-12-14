@@ -107,8 +107,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ######################### ARTIST MODAL SECTION ################################################# -->
 	<!--  BEGIN ARTIST  -->
 		<input id="modal-toggle-artist1" type="checkbox">
-		<label class="modal-backdrop-artist1" for="modal-toggle-artist1"></label>
-		<div class="modal-content-artist1">
+		<label class="modal-backdrop-artist" for="modal-toggle-artist1"></label>
+		<div class="modal-content-artist">
 			<label class="modal-close-btn" for="modal-toggle-artist1">
 				  <svg width="50" height="50">
 				<line x1="10" y1="10" x2="40" y2="40"/>
