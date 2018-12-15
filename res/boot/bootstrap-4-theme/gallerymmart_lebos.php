@@ -171,7 +171,7 @@
   <script src="assets/gallery/script.js"></script>
   <script src="assets/slidervideo/script.js"></script>
   
-<?php echo $count ?>  
+  
 </body>
 
 <!-- Mirrored from mobirise.com/bootstrap-4-theme/gallery-template.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Nov 2018 17:04:39 GMT -->
