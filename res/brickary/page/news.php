@@ -15,7 +15,7 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>mmARTHouse | Pages | About</title>
+<title>mmARTHouse | Pages | Our Friends</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/upload.css" rel="stylesheet" type="text/css" media="all">
@@ -355,13 +355,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 					  <h3 class="heading">The Path to Greatjoy<br><br><br><br><br></h3>
-						<footer>
-							<!--<label for="modal-toggle-artist1" class="btn inverse">Find out more about GreatJoy Ndlovu</label>-->
-						</footer>
-					</article>
 					</article>
 				</li>
 			  </ul>
+					<a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=greatjoy"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist2">
@@ -370,12 +367,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist2" class="btn inverse">Find out more about Lebohang Motaung</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=lebom"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist3">
@@ -384,12 +379,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist3" class="btn inverse">Find out more about Happy Dhlalame</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=happy"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist4">
@@ -398,12 +391,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist4" class="btn inverse">Find out more about Lebohang Sithole</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=lebos"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist5">
@@ -412,12 +403,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist5" class="btn inverse">Find out more about Dario Manjate</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=dario"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist6">
@@ -426,12 +415,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist6" class="btn inverse">Find out more about Mandlenkosi Mavengere</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=mand"></a>
 			</div>
 		</label>
         <label for="modal-toggle-artist7">
@@ -440,12 +427,10 @@ Licence URI: http://www.os-templates.com/template-terms
 				<li>
 					<article>
 						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
-						<footer>
-							<!--<label for="modal-toggle-artist7" class="btn inverse">Find out more about Azael Langa</label>-->
-						</footer>
 					</article>
 				</li>
 			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=azael"></a>
 			</div>
 		</label>
       </div>
