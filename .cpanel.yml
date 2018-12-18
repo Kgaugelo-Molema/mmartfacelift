@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mmartqlz/public_html/res/brickary/page/
+    - export DEPLOYPATH=/home/mmartqlz/public_html/
     - add_vhost.php $DEPLOYPATH
