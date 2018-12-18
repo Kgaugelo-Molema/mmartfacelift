@@ -289,7 +289,7 @@ include "../../../inc/emailinc.php";
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">www.mmart.co.za</a></p>
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">www.mmarthouse.co.za</a></p>
     <p class="fl_right">Designed by <a target="_blank" href="http://www.gatewaysytems.co.za/">Gateway Systems</a></p>
     <!-- ################################################################################################ -->
   </div>

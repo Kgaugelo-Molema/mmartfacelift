@@ -72,7 +72,7 @@
 			</nav>
 
 			<div class="fh5co-footer">
-				<p><small>&copy; Copyright &copy; 2018 - All Rights Reserved - <a href="#">www.mmart.co.za</a>
+				<p><small>&copy; Copyright &copy; 2018 - All Rights Reserved - <a href="#">www.mmarthouse.co.za</a>
 				</span> <span>Designed by <a href="http://www.gatewaysytems.co.za/" target="_blank">Gateway Systems</a> </span> </small></p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook"></i></a></li>
