@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mmartqlz/public_html/res/brickary/page/
-    - /dbscripts mmartqlz_cms.sql $DEPLOYPATH
+    - /dbscripts/mmartqlz_cms.sql $DEPLOYPATH
