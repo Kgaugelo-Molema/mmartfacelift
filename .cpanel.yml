@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mmartqlz/public_html/
-    - add_vhost.php $DEPLOYPATH
+    - add_vhost.php /home/mmartqlz/public_html/
