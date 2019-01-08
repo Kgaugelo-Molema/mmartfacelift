@@ -28,7 +28,7 @@
 		$file_type = $_FILES['file-6']['type'];
 
 	$folder = isset($_POST['imgfolder']) ? $_POST['imgfolder'] : "../../$album/";			
-	 move_uploaded_file($file_loc,$folder.$targetfilename);
+	 //move_uploaded_file($file_loc,$folder.$targetfilename);
 
 	 // Valid file extensions
 	 $extensions_arr = array("image/jpg","image/jpeg","image/png","image/gif");
