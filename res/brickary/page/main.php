@@ -140,11 +140,32 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
+			<div id="ad-box">
+    
+    
+				<div class="ad">
+				  
+				  
+				  
+				</div>
+    
+    
+		  </div>		
+  
           <!-- <div class="side-img" style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div> -->
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
         <li>
+			<div style="background: url('../../../img/hlanga_exibit_s.jpg');">
+			<article style="background:rgba(255,255,255,0.7)">
+				<p>Hlangana lathi | Join us | Sanganai Nesu</p>
+				<h3 class="heading">Calculations</h3>
+				<p>7 February 2019 | 17H30 - 21H00</p>
+				<footer><a class="btn inverse" href="#">Find out more</a></footer>
+			</article>
+          </div>
+        <!-- <li>
 			<div style="background: url('../../../img/home_right_s.jpeg');">
 			  <article style="background:rgba(255,255,255,0.7)">
 				<p>Private space for Artists, Collectors, Curators and Creatives</p>
@@ -161,7 +182,7 @@ include "../../../inc/emailinc.php";
 				</footer>
 			  </article>
 			</div>
-        </li>
+        </li> -->
         <li>
           <div style="background:url('../../../img/GreatJoy12.jpg')">
 			<article style="background:rgba(255,255,255,0.7)">
