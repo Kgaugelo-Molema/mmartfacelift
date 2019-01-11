@@ -513,8 +513,8 @@ table a, #comments a{background-color:inherit;}
 #ad-box {
   position: relative;
   width: 100%;
-  height: 720px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .ad {
@@ -525,7 +525,6 @@ table a, #comments a{background-color:inherit;}
   height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("../../../../img/hlanga_exibit.jpeg");
   animation: bounce 1s ease-in infinite;
 }
 

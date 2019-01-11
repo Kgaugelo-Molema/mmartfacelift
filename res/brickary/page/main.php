@@ -142,9 +142,9 @@ include "../../../inc/emailinc.php";
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
 			<div id="ad-box">
     
+				<img class="ad" src="../../../img/hlanga_exibit.jpeg" />
     
-				<div class="ad">
-				  
+				<div >
 				  
 				  
 				</div>
