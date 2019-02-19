@@ -110,7 +110,8 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="about.php">About Us</a></li>
           <li><a class="drop" href="./gallery.php">Gallery</a>
             <ul>
-              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=calculations">Calculations</a></li>
+              <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
             </ul>
 		  </li>
@@ -154,7 +155,7 @@ Licence URI: http://www.os-templates.com/template-terms
 						<h3>Our Address</h3>
 						<ul class="contact-info">
 							<li><i class="fa fa-pencil"></i>&nbsp;Jonhannesburg, South Africa</li>
-							<li><i class="fa fa-phone"></i>&nbsp;+27 11 888 9900</li>
+							<!--<li><i class="fa fa-phone"></i>&nbsp;+27 11 888 9900</li>-->
 							<li><i class="fa fa-mail-forward"></i><a href="#">&nbsp;info@mmarthouse.co.za</a></li>
 							<li><i class="fa fa-globe"></i><a href="#">&nbsp;www.mmarthouse.co.za</a></li>
  							<li>

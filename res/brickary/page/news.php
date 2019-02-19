@@ -290,6 +290,31 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist8" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist8"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist8">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/george.png');background-size:cover;background-position:center;">
+						<p>George Masarira&lsquo;s Statement</p>
+						<p><a target="_blank" href="../../../docs/george-masarira-calculations.pdf">Click her for BIOGRAPHY</a></p>
+						<p>Life is a calculated characteristic that distinguishes physical entities that have biological processes, such as signaling and self-sustaining processes, from those that do not.</p>
+						<p>Through canvas and paint, i depict a philosophy that all that exists is matter, and that life is merely a complex form or arrangement of matter.</p> 
+						<p>The rendition of man as a mobile humanoid, reorganised human anatomy, political questions, dripping paintings, and my choice of artistic material,</p>
+						<p>summarise that every depiction and action are calculated events, decisions, colors, material and thoughts, all represented by painted images. Through my daily Zimbabwean experiences,</p> 
+						<p>the spectator is invited to think that calculations are the universe itself.</p>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -311,7 +336,8 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="about.php">About Us</a></li>
           <li class="drop"><a href="gallery.php">Gallery</a>
             <ul>
-              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=calculations">Calculations</a></li>
+              <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
             </ul>
 		  </li>
@@ -349,6 +375,18 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="pageintro" style="padding:0px;">
+        <label for="modal-toggle-artist8">
+			<div class="thumbnail" style="background:url('../../../img/george.png');background-size:contain;background-position:top;background-repeat:no-repeat;;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+					</article>
+				</li>
+			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=george"></a>
+			</div>
+		</label>
         <label for="modal-toggle-artist1">
 			<div class="thumbnail" style="background:url('../../../img/GreatJoy12.jpg');background-size:cover;background-position:center;">
 			  <ul>

@@ -84,7 +84,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle-artist4,
 #modal-toggle-artist5,
 #modal-toggle-artist6,
-#modal-toggle-artist7 {
+#modal-toggle-artist7,
+#modal-toggle-artist8 {
   display: none;
 }
 
@@ -131,7 +132,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle-artist4:checked + .modal-backdrop,
 #modal-toggle-artist5:checked + .modal-backdrop,
 #modal-toggle-artist6:checked + .modal-backdrop,
-#modal-toggle-artist7:checked + .modal-backdrop {
+#modal-toggle-artist7:checked + .modal-backdrop,
+#modal-toggle-artist8:checked + .modal-backdrop {
   opacity: 1;
   background-color: rgba(0, 70, 62, 0.5);
   z-index: 998;
@@ -154,7 +156,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   #modal-toggle-artist6:checked + .modal-backdrop,
   #modal-toggle-artist6:checked + .modal-backdrop + .modal-content,
   #modal-toggle-artist7:checked + .modal-backdrop,
-  #modal-toggle-artist7:checked + .modal-backdrop + .modal-content {
+  #modal-toggle-artist7:checked + .modal-backdrop + .modal-content,
+  #modal-toggle-artist8:checked + .modal-backdrop,
+  #modal-toggle-artist8:checked + .modal-backdrop + .modal-content   {
     opacity: 0;
   }
 
@@ -173,7 +177,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #modal-toggle-artist4:checked + .modal-backdrop + .modal-content,
 #modal-toggle-artist5:checked + .modal-backdrop + .modal-content,
 #modal-toggle-artist6:checked + .modal-backdrop + .modal-content,
-#modal-toggle-artist7:checked + .modal-backdrop + .modal-content {
+#modal-toggle-artist7:checked + .modal-backdrop + .modal-content,
+#modal-toggle-artist8:checked + .modal-backdrop + .modal-content {
   opacity: 1;
   background-color: #945a5a5c;
   overflow-y: auto;
@@ -375,6 +380,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	background: #ffffffd9;
 }
 
+#topbar .tabs-artist > .tabs-content-artist a {
+	background: none;
+	color: black;
+	text-decoration-line: underline;
+}
 /*  END style login & sign up  */
 .forgot-password #forgot-password-toggle {
   display: none;

@@ -124,7 +124,8 @@ include "../../../inc/emailinc.php";
           <li><a href="./about.php">About Us</a></li>
           <li><a class="drop" href="./gallery.php">Gallery</a>
             <ul>
-              <li><a href="./gallery.php?album=current">Current Exhibitions</a></li>
+              <li><a href="./gallery.php?album=calculations">Calculations</a></li>
+              <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
             </ul>
 		  </li>
@@ -142,7 +143,13 @@ include "../../../inc/emailinc.php";
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
 			<div id="ad-box">
     
-				<img class="ad" src="../../../img/hlanga_exibit.jpeg" />
+				<!-- <img class="ad" src="../../../img/hlanga_exibit.jpeg" /> -->
+
+				<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/gyHuMxLApM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2-v9qFXcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<!-- <iframe src="https://player.vimeo.com/video/316179353" width="640" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<p><a href="https://vimeo.com/316179353">Calculations</a> from <a href="https://vimeo.com/user81325417">Kgaoza Gp</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
     
 				<div >
 				  
@@ -162,7 +169,7 @@ include "../../../inc/emailinc.php";
 				<p>Hlangana lathi | Join us | Sanganai Nesu</p>
 				<h3 class="heading">Calculations</h3>
 				<p>7 February 2019 | 17H30 - 21H00</p>
-				<footer><a class="btn inverse" href="#">Find out more</a></footer>
+				<footer><a class="btn inverse" href="./gallery.php?album=calculations">Find out more</a></footer>
 			</article>
           </div>
         <!-- <li>
