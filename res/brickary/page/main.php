@@ -170,7 +170,7 @@ include "../../../inc/emailinc.php";
 					<h3 class="heading">Nkhensani Rihlampfu&apos;s</h3>
 					<h2 class="heading">Cognition</h2>
 					<p>14 March to 06 April 2019 | Openint night 14th @17H30</p>
-					<footer><a class="btn inverse" href="./gallery.php?album=calculations">Find out more</a></footer>
+					<footer><a class="btn inverse" href="#">Find out more</a></footer>
 				</article>
             </div>
         </li>
