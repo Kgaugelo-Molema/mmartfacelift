@@ -510,7 +510,7 @@ table a, #comments a{background-color:inherit;}
 	max-width: 100%;
 }	
 
-#ad-box {
+.ad-box {
   position: relative;
   width: 100%;
   margin: 0 auto;

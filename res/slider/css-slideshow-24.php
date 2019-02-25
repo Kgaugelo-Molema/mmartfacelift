@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>CSS Slideshow - Outstanding CSS-only slider</title>
 <style type="text/css">
-#rt-showcase.slider-container { background: #F5F6F8; }
+#rt-showcase.slider-container { background: #000000; }
 .slider-container {
     
 }
@@ -49,7 +49,10 @@
 				<img src="../../img/home_left.jpeg" alt='HTML5 php ordner download slider horizontal ajax' style="width: 100%;">
 			</li>
 			<li class='num0 img slide'>
-				<img src='../../img/home_left.jpeg' alt='HTML text video images slider remove' title='Wrist Watch' />
+				<!--<img src='../../img/home_left.jpeg' alt='HTML text video images slider remove' title='Wrist Watch' />-->
+				<center>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2-v9qFXcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</center>
 			</li>
 			<li class='num1 img slide'>
 				<img src='../../img/mmarthouse_1.jpg' alt='Responsive banner pagination slideshow 3d type' title='Luxury Watch' />
@@ -62,7 +65,7 @@
 		<a class="cs_lnk" href="index.html">jQuery image free downloasd slideshow gallery thumbnails numbers</a>
 		<div class='cs_description'>
 			<label class='num0'>
-				<span class="cs_title"><span class="cs_wrapper">Exhibition November 2018</span></span>
+				<span class="cs_title"><span class="cs_wrapper">Calculations February 2019</span></span>
 				
 			</label>
 			<label class='num1'>
@@ -89,7 +92,9 @@
 		<div class='cs_bullets'>
 			<label class='num0' for='cs_slide1_0'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='sliders/demo-24/data1/tooltips/wristwatch573395_1280.jpg' alt='CSS free controls slider attractive code simple' title='Wrist Watch' /></span>
+				<span class='cs_thumb'>
+					<img src='sliders/demo-24/data1/tooltips/wristwatch573395_1280.jpg' alt='CSS free controls slider attractive code simple' title='Wrist Watch' />
+				</span>
 			</label>
 			<label class='num1' for='cs_slide1_1'>
 				<span class='cs_point'></span>

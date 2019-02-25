@@ -141,7 +141,13 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
-			<div id="ad-box">
+			<div class="ad-box">
+    
+				<img class="ad" src="../../../img/cognition-invite-sm_1600px.jpg" /> 
+
+			</div>
+    
+			<div style="display:none" class="ad-box">
     
 				<!-- <img class="ad" src="../../../img/hlanga_exibit.jpeg" /> -->
 
@@ -151,27 +157,33 @@ include "../../../inc/emailinc.php";
 				<!-- <iframe src="https://player.vimeo.com/video/316179353" width="640" height="362" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<p><a href="https://vimeo.com/316179353">Calculations</a> from <a href="https://vimeo.com/user81325417">Kgaoza Gp</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
     
-				<div >
-				  
-				  
-				</div>
-    
-    
-		  </div>		
+		    </div>		
   
           <!-- <div class="side-img" style="margin:0 100px -300px 0; background:url('../../../img/home_left_s.jpeg');background-repeat:no-repeat;height:468px;width:35%;background-position:left;"></div> -->
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
         <li>
+			<div style="background: url('../../../img/cognition-invite-banner-s.jpg');">
+				<article style="background:rgba(255,255,255,0.7)">
+					<!-- <p>Hlangana lathi | Join us | Sanganai Nesu</p> -->
+					<h3 class="heading">Nkhensani Rihlampfu&apos;s</h3>
+					<h2 class="heading">Cognition</h2>
+					<p>14 March to 06 April 2019 | Openint night 14th @17H30</p>
+					<footer><a class="btn inverse" href="./gallery.php?album=calculations">Find out more</a></footer>
+				</article>
+            </div>
+        </li>
+        <li>
 			<div style="background: url('../../../img/hlanga_exibit_s.jpg');">
-			<article style="background:rgba(255,255,255,0.7)">
-				<p>Hlangana lathi | Join us | Sanganai Nesu</p>
-				<h3 class="heading">Calculations</h3>
-				<p>7 February 2019 | 17H30 - 21H00</p>
-				<footer><a class="btn inverse" href="./gallery.php?album=calculations">Find out more</a></footer>
-			</article>
-          </div>
+				<article style="background:rgba(255,255,255,0.7)">
+					<p>Hlangana lathi | Join us | Sanganai Nesu</p>
+					<h3 class="heading">Calculations</h3>
+					<p>7 February 2019 | 17H30 - 21H00</p>
+					<footer><a class="btn inverse" href="./gallery.php?album=calculations">Find out more</a></footer>
+				</article>
+            </div>
+        </li>
         <!-- <li>
 			<div style="background: url('../../../img/home_right_s.jpeg');">
 			  <article style="background:rgba(255,255,255,0.7)">
