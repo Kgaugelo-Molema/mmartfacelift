@@ -160,6 +160,11 @@ Licence URI: http://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
+    <div id="introblocks-cogni">
+      <ul class="nospace group">
+      </ul>
+    </div>
+	<br>
     <div id="introblocks-calc">
       <ul class="nospace group">
       </ul>

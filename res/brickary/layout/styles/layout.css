@@ -78,7 +78,17 @@ File: Layout CSS
 .sectiontitle{display:block; margin-bottom:80px;}
 .sectiontitle *{margin:0;}
 
-#introblocks-calc {position:relative; z-index:0;}
+#introblocks-cogni {position:relative; z-index:0;}
+#introblocks-cogni > ul{display:block; height:708px;background-position:center;background:url('../../../../img/cognition-invite-sm_1600px.jpg') no-repeat;}
+#introblocks-cogni > ul > li{text-align:center;}
+#introblocks-cogni > ul > li > article{display:inline-block; width:100%; max-width:320px; text-align:left;}
+#introblocks-cogni > ul > li > article > div{padding:30px 20px;}
+#introblocks-cogni > ul > li > article > div *{margin:0; padding:0;}
+#introblocks-cogni > ul > li > article > div .heading{margin-bottom:10px; font-size:1.2rem;}
+#introblocks-cogni > ul > li > article footer{border-top:1px solid;}
+#introblocks-cogni > ul > li > article footer a{display:block; position:relative; width:100%; height:39px; line-height:39px; padding:0 20px; text-transform:uppercase;}
+#introblocks-cogni > ul > li > article footer a::after{position:absolute; top:0; right:0; height:100%; padding:0 15px; font-family:"FontAwesome"; content:"\f105"; border-left:1px solid;}
+
 #introblocks-calc > ul{display:block; height:708px;background-position:center;background:url('../../../../img/hlanga_exibit.jpeg') no-repeat;}
 #introblocks-calc > ul > li{text-align:center;}
 #introblocks-calc > ul > li > article{display:inline-block; width:100%; max-width:320px; text-align:left;}
@@ -88,7 +98,6 @@ File: Layout CSS
 #introblocks-calc > ul > li > article footer{border-top:1px solid;}
 #introblocks-calc > ul > li > article footer a{display:block; position:relative; width:100%; height:39px; line-height:39px; padding:0 20px; text-transform:uppercase;}
 #introblocks-calc > ul > li > article footer a::after{position:absolute; top:0; right:0; height:100%; padding:0 15px; font-family:"FontAwesome"; content:"\f105"; border-left:1px solid;}
-
 
 #introblocks{position:relative; z-index:1;}
 #introblocks > ul{display:block; height:708px;background-position:center;background:url('../../../../img/homeart_s.jpg') no-repeat;}
