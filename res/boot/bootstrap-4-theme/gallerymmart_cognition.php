@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../../../img/mmarthouse-icon.png">
   <meta name="description" content="HTML5 Gallery Template - Free Download">
-  <title>mmARTHouse | Pages | Gallery | Calculations</title>
+  <title>mmARTHouse | Pages | Gallery | Current</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
@@ -51,7 +51,7 @@
 
             <!-- Uploads Gallery -->
             <?php						
-                $album = "Exhibition_Calculations";
+                $album = "Exhibition_Cognition";
                 $directory = "../../../$album";
                 $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
                 $count = 0;
@@ -66,26 +66,7 @@
                     echo '</div>';
                     $count += 1;
                 }
-            ?>
-            <!-- Exhibitions Gallery -->
-            <?php						
-//                $exhibition = "Exhibition_Nov18";
-//                $directory = "../../../$exhibition";
-//                $images = glob("$directory/*.{jpg,png,bmp}", GLOB_BRACE);
-                //$count = 1;
-//                $liClass = '"one_quarter first"';
-//                foreach($images as $image)
-//                {
-//                    echo '<div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="'.$exhibition.'">';
-//                    echo '  <div href="#lb-gallery2-u" data-slide-to="'.$count.'" data-toggle="modal">';
-//                    echo '    <img src="'.$image.'" alt="">';
-//                    echo '    <span class="icon-focus"></span>';
-//                    echo '  </div>';
-//                    echo '</div>';
-//                    $count += 1;
-//                }
-            ?>
-                        
+            ?>                        
                         </div>
                     </div>
 				<div class="clearfix"></div>

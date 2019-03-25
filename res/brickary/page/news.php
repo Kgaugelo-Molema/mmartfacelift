@@ -315,6 +315,26 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</div>        		
 	<!--END-->		
+	<!--  BEGIN ARTIST  -->
+		<input id="modal-toggle-artist9" type="checkbox">
+		<label class="modal-backdrop" for="modal-toggle-artist9"></label>
+		<div class="modal-content">
+			<label class="modal-close-btn" for="modal-toggle-artist9">
+				  <svg width="50" height="50">
+				<line x1="10" y1="10" x2="40" y2="40"/>
+					<line x1="40" y1="10" x2="10" y2="40"/>
+				  </svg>
+			  </label>
+			<div class="tabs-artist">
+				<div class="tabs-content-artist">
+					<div style="background:url('../../../img/nkhenprof.jpeg');background-size:cover;background-position:center;">
+						<img src='../../../img/nkhenprof.jpeg'/>
+						<iframe style="margin-top:-30%" src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=artwork" frameborder="0" width="100%" height="180"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>        		
+	<!--END-->		
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -336,6 +356,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="about.php">About Us</a></li>
           <li class="drop"><a href="gallery.php">Gallery</a>
             <ul>
+              <li><a href="./gallery.php?album=cognition">Cognition</a></li>
               <li><a href="./gallery.php?album=calculations">Calculations</a></li>
               <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
@@ -375,6 +396,18 @@ Licence URI: http://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="pageintro" style="padding:0px;">
+        <label for="modal-toggle-artist9">
+			<div class="thumbnail" style="background:url('../../../img/nkhenprof.jpeg');background-size:contain;background-position:top;background-repeat:no-repeat;;">
+			  <ul>
+				<li>
+					<article>
+						<h3 class="heading" style="color:aquamarine;"><br><br><br><br><br></h3>                    
+					</article>
+				</li>
+			  </ul>
+			  <a class="btn fa fa-paint-brush" href="../../brickary/page/gallery.php?album=cognition"></a>
+			</div>
+		</label>
         <label for="modal-toggle-artist8">
 			<div class="thumbnail" style="background:url('../../../img/george.png');background-size:contain;background-position:top;background-repeat:no-repeat;;">
 			  <ul>

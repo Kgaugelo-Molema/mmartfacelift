@@ -130,7 +130,8 @@ Licence URI: http://www.os-templates.com/template-terms
           <li><a href="about.php">About Us</a></li>
           <li class="active drop"><a href="gallery.php">Gallery</a>
             <ul>
-              <li><a href="./gallery.php?album=calculations">Calculations</a></li>
+              <li><a href="./gallery.php?album=cognition">Cognition</a></li>
+			  <li><a href="./gallery.php?album=calculations">Calculations</a></li>
               <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
             </ul>

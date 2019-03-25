@@ -124,6 +124,7 @@ include "../../../inc/emailinc.php";
           <li><a href="./about.php">About Us</a></li>
           <li><a class="drop" href="./gallery.php">Gallery</a>
             <ul>
+              <li><a href="./gallery.php?album=cognition">Cognition</a></li>
               <li><a href="./gallery.php?album=calculations">Calculations</a></li>
               <li><a href="./gallery.php?album=current">2018 Exhibitions</a></li>
               <li><a href="./gallery.php?album=archive">Past Exhibitions</a></li>
@@ -170,7 +171,7 @@ include "../../../inc/emailinc.php";
 					<h3 class="heading">Nkhensani Rihlampfu&apos;s</h3>
 					<h2 class="heading">Cognition</h2>
 					<p>14 March to 06 April 2019 | Opening night 14th @17H30</p>
-					<footer><a class="btn inverse" href="#">Find out more</a></footer>
+					<footer><a class="btn inverse" href="./gallery.php?album=cognition">Find out more</a></footer>
 				</article>
             </div>
         </li>
@@ -223,6 +224,7 @@ include "../../../inc/emailinc.php";
         </li>
       </ul>
     </div>
+	<iframe src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=cover&size=square" frameborder="0" width="400" height="400"></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2-v9qFXcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe scrolling="no" frameborder="0" src="../../slider/css-slideshow-24.php"></iframe>
     <!-- ################################################################################################ -->
