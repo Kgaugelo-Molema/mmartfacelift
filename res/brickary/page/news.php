@@ -139,7 +139,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			  </label>
 			<div class="tabs-artist">
 				<div class="tabs-content-artist">
-					<div style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+					<div style="background:url('../../../img/lebom.jpeg');background-size:cover;background-position:center;">
 						<p>Lebohang Motaung is a fine artist and a hairstylist. Plaiting hair has always been part of her life. Over the years it went from just a tool of making money to her area of research and art practice. She became more fascinated by arrangements, patterns, colour and different textures. In her work, she focuses on the activity and process of doing hair.</p>
 						<p>In her work, she uses a wide range of mediums. From linocut, etching, paper making and synthetic hair on paper. With her etching works, she presents the timeous laborious process that she goes through when plaiting hair. In her recent work, she makes portraits using hair, where she talks about how a person’s hair can be a symbol of one’s identity, and how it has the power to dictate how a person is seen. She uses human hair and synthetic hair to portray her subject matter. She is influenced by the conversations she had with her clients when she was still a fulltime hairstylist.</p>
 					</div>
@@ -159,7 +159,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			  </label>
 			<div class="tabs-artist">
 				<div class="tabs-content-artist">
-					<div style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+					<div style="background:url('../../../img/happyd.jpeg');background-size:cover;background-position:center;">
 						<p>Happy Dhlame, He is a South African born artist born in Soweto Johannesburg. His work ranges from Painting, Installation and video installation that mostly comment on his social urban. It unmasks existing codes on conditions in conventional art. It revives around abandoned building structures in the inner city. Interior and exterior spaces of decomposing structure, urban landscape furniture in certain vicinities as well as people inhabiting in such spaces. Thus, may be understood as the combined visual and spatial component of art production.</p>
 						<p>Achievements</p>
 						<p>Hansjoeg Wyss award (Switzerland)</p>
@@ -433,7 +433,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</label>
         <label for="modal-toggle-artist2">
-			<div class="thumbnail" style="background:url('../../../img/lebohang-Motaung.jpg');background-size:cover;background-position:center;">
+			<div class="thumbnail" style="background:url('../../../img/lebom.jpeg');background-size:cover;background-position:center;">
 			  <ul>
 				<li>
 					<article>
@@ -445,7 +445,7 @@ Licence URI: http://www.os-templates.com/template-terms
 			</div>
 		</label>
         <label for="modal-toggle-artist3">
-			<div class="thumbnail" style="background:url('../../../img/Happy-blk1.jpg');background-size:cover;background-position:center;">
+			<div class="thumbnail" style="background:url('../../../img/happyd.jpeg');background-size:cover;background-position:center;">
 			  <ul>
 				<li>
 					<article>

@@ -68,7 +68,10 @@ File: Layout CSS
 	height: 700px;
 }
 
-.about {background: url('../../../../img/muzin.jpg') no-repeat;}
+.about {
+	background: url('../../../../img/muzim.jpeg') no-repeat;
+	background-position: center;
+}
 
 .container .content div { 
 	background-color: rgba(255,255,255,0.8); 
@@ -393,7 +396,7 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
-	.hoc{max-width:750px;}
+	.hoc{max-width:80%;}
 }
 
 
@@ -478,7 +481,7 @@ table a, #comments a{background-color:inherit;}
 
 .container .content .thumbnail {
 	height: 25%;
-	width: 40%;
+	width: 300px;
 	float: left;
 	margin: 10px;
 	border-radius: .25rem;
