@@ -144,7 +144,7 @@ include "../../../inc/emailinc.php";
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
 			<div class="ad-box">
     
-				<img class="ad" src="../../../img/cognition-invite-sm_1600px.jpg" /> 
+				<img class="ad" src="../../../img/greatjoy_conversations.jpg" /> 
 
 			</div>
     
