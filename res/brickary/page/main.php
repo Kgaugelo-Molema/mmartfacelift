@@ -144,7 +144,7 @@ include "../../../inc/emailinc.php";
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
 			<div class="ad-box">
     
-				<img class="ad" src="../../../img/greatjoy_conversations.jpg" /> 
+				<img class="ad" src="../../../img/greatjoy_walkabout.jpg" /> 
 
 			</div>
     
@@ -164,6 +164,17 @@ include "../../../inc/emailinc.php";
     <!-- ################################################################################################ -->
     <div class="flexslider basicslider">
       <ul class="slides">
+        <li>
+			<div style="background: url('../../../img/greatjoy_conversations_banner.jpg');">
+				<article style="background:rgba(255,255,255,0.7)">
+					<!-- <p>Hlangana lathi | Join us | Sanganai Nesu</p> -->
+					<h3 class="heading">GreatJoy Ndlovu&apos;s</h3>
+					<h2 class="heading">Conversations</h2>
+					<p>27 April 2019 | Opening night @17H30</p>
+					<!-- <footer><a class="btn inverse" href="./gallery.php?album=cognition">Find out more</a></footer> -->
+				</article>
+            </div>
+        </li>
         <li>
 			<div style="background: url('../../../img/cognition-invite-banner-s.jpg');">
 				<article style="background:rgba(255,255,255,0.7)">

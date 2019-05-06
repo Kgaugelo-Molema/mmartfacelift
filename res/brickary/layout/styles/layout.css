@@ -81,6 +81,17 @@ File: Layout CSS
 .sectiontitle{display:block; margin-bottom:80px;}
 .sectiontitle *{margin:0;}
 
+#introblocks-walk {position:relative; z-index:0;}
+#introblocks-walk > ul{display:block; height:708px;background-position:center;background:url('../../../../img/greatjoy_walkabout_1600.jpg') no-repeat;}
+#introblocks-walk > ul > li{text-align:center;}
+#introblocks-walk > ul > li > article{display:inline-block; width:100%; max-width:320px; text-align:left;}
+#introblocks-walk > ul > li > article > div{padding:30px 20px;}
+#introblocks-walk > ul > li > article > div *{margin:0; padding:0;}
+#introblocks-walk > ul > li > article > div .heading{margin-bottom:10px; font-size:1.2rem;}
+#introblocks-walk > ul > li > article footer{border-top:1px solid;}
+#introblocks-walk > ul > li > article footer a{display:block; position:relative; width:100%; height:39px; line-height:39px; padding:0 20px; text-transform:uppercase;}
+#introblocks-walk > ul > li > article footer a::after{position:absolute; top:0; right:0; height:100%; padding:0 15px; font-family:"FontAwesome"; content:"\f105"; border-left:1px solid;}
+
 #introblocks-conv {position:relative; z-index:0;}
 #introblocks-conv > ul{display:block; height:708px;background-position:center;background:url('../../../../img/greatjoy_conversations_1600.jpg') no-repeat;}
 #introblocks-conv > ul > li{text-align:center;}
