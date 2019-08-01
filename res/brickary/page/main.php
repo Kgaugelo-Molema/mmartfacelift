@@ -142,9 +142,10 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
+	<iframe src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=cover&size=square" frameborder="0" width="400" height="400"></iframe>
 			<div class="ad-box">
     
-				<img class="ad" src="../../../img/greatjoy_walkabout.jpg" /> 
+				<!-- <img class="ad" src="../../../img/greatjoy_walkabout.jpg" /> -->
 
 			</div>
     
@@ -232,10 +233,10 @@ include "../../../inc/emailinc.php";
 				<p>by Ntsikelelo Mzibomvu</p>
 				<footer><a class="btn" href="#">Find out more</a></footer>
 			  </article>
+			 </div>
         </li>
       </ul>
     </div>
-	<iframe src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=cover&size=square" frameborder="0" width="400" height="400"></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2-v9qFXcpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe scrolling="no" frameborder="0" src="../../slider/css-slideshow-24.php"></iframe>
     <!-- ################################################################################################ -->
