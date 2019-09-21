@@ -12,3 +12,5 @@ js/jquery*
 js/magnific*
 js/main.js
 old/
+/HTML5Application/nbproject/private/
+/nbproject/private/
