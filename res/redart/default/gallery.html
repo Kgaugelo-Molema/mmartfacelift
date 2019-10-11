@@ -168,7 +168,11 @@
                                             </div>
                                         </figcaption>
                                     </figure>
-													
+<!--PayFast Button start here-->
+    <a href="https://www.payfast.co.za/eng/process?cmd=_paynow&amp;receiver=14413627&amp;item_name=art1&amp;item_description=Test+buy+now+button&amp;amount=105.80"><img src="https://www.payfast.co.za/images/buttons/light-small-paynow.png" width="165" height="36" alt="Pay" title="Pay Now with PayFast" /></a>
+
+
+<!--PayFast Button End here-->
 <!-- PayPal Button start-->
 									<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 										<input type="hidden" name="cmd" value="_s-xclick">
@@ -208,6 +212,102 @@
                                             </div>
                                         </figcaption>
                                    </figure>
+           
+<!--PayFast Button2 start here-->
+        <script language="JavaScript" type="text/javascript">
+
+function click_0652123856b5a214ed96fc938a17a2ea( aform_reference ) {
+            var aform = aform_reference;
+            aform['amount'].value = Math.round( aform['amount'].value*Math.pow( 10,2 ) )/Math.pow( 10,2 );
+            for( i=0; i<aform.elements.length; i++ )
+              if( aform.elements[i].className == 'shipping' )
+                aform.elements[i].value = aform.elements[i].value.replace( /^\s+|\s+$/g,"" );
+            var cont = true;
+            for( i=0; i<aform.elements.length; i++ ) {
+
+                if( aform.elements[i].className != 'shipping' )
+                    continue;
+
+                if( aform.elements[i].name == 'line2' )
+                    continue;
+
+                if( ! cont )
+                    continue;
+
+                if( aform.elements[i].name == 'country' ) {
+                    if( aform.elements[i].selectedIndex == 0 ) {
+                        cont = false;
+                        alert ( 'Select a country' );
+                    }
+                }   else    {
+                    if( 0 === aform.elements[i].value.length || /^\s*$/.test( aform.elements[i].value ) ) {
+                        cont = false;
+                        alert ( 'Complete all the mandatory address fields' );
+                    }
+                }
+            }
+            if( ! cont )
+                return cont;
+            var shipping_info = '';
+            for( i=0; i<aform.elements.length; i++ )
+              if( aform.elements[i].className == 'shipping' )
+                shipping_info+=' '+aform.elements[i].name+' ['+aform.elements[i].value+']';
+
+            aform['item_description'].value+= ' Shipping Information '+shipping_info
+
+}
+
+</script>
+
+<form action="https://www.payfast.co.za/eng/process" name="form_0652123856b5a214ed96fc938a17a2ea" onsubmit="return click_0652123856b5a214ed96fc938a17a2ea( this );" method="post">
+<input type="hidden" name="cmd" value="_paynow">
+<input type="hidden" name="receiver" value="14413627">
+<input type="hidden" name="item_name" value="art2">
+<input type="hidden" name="amount" value="2009.09">
+<input type="hidden" name="item_description" value="">
+
+<table>
+<tr><td colspan="2"><span style="font-weight: bold;">Shipping Address</span></td></tr>
+    <tr>
+        <td><font color="red">*</font>&nbsp;Line 1</td>
+        <td><input type="text" name="line1" class="shipping" value=""></td>
+    </tr>
+    <tr>
+        <td>Line 2</td>
+        <td><input type="text" name="line2" class="shipping" value=""></td>
+    </tr>
+    <tr>
+        <td><font color="red">*</font>&nbsp;City</td>
+        <td><input type="text" class="shipping" name="city" value=""></td>
+    </tr>
+    <tr>
+        <td><font color="red">*</font>&nbsp;Province</td>
+        <td><input type="text" class="shipping" name="region" value=""></td>
+    </tr>
+    <tr>
+        <td><font color="red">*</font>&nbsp;Country</td>
+        <td>
+        <select name="country" class="shipping">
+        <option value="" selected="selected">- Select -</option>
+        <option value="South Africa">South Africa</option>
+        <option value="">------------------------</option>
+        <option value="Botswana">Botswana</option>
+        <option value="Lesotho">Lesotho</option>
+        <option value="Mauritius">Mauritius</option>
+        <option value="Mozambique">Mozambique</option>
+        <option value="Swaziland">Swaziland</option>
+        <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td><font color="red">*</font>&nbsp;Postal Code</td>
+        <td><input type="text" name="code" class="shipping" value=""></td>
+    </tr><tr><td colspan=2 align=center><input type="image" src="https://www.payfast.co.za/images/buttons/light-small-buynow.png" width="165" height="36" alt="Buy Now" title="Buy Now with PayFast"></td></tr></table>
+</form>
+
+<!--PayFast Button2 End here-->
+
 <!-- PayPal Button start-->
 									<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 										<input type="hidden" name="cmd" value="_s-xclick">
