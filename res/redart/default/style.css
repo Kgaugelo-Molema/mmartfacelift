@@ -625,7 +625,7 @@
 	#main { float: left; margin: 0; position: relative; width: 100%; }
 	
 	.slider-container { backface-visibility: hidden; margin: 0 0 20px; display: table; float: left; height: 100%;	min-height: 100%; overflow: hidden; position: relative; vertical-align: middle; width: 100%;}
-	.slider { background-image:url(../../../collage/collage_hd.jpg); background-size: cover; backface-visibility: hidden; display: table; float: left; height: 100%; width: 100%; }
+	.slider { background-image:url(../../../img/logotop_new.png); background-size: cover; backface-visibility: hidden; display: table; float: left; height: 100%; width: 100%; }
 	.slider-container .container, .slider-container .parallax { position: static; }	
 	
 	.slider::before, .slider::after { border: 1px solid #1c1c1c; bottom: 0; content: ""; left: 0; margin: 15px; position: absolute; right: 0; top: 0;}
@@ -636,7 +636,7 @@
 	
 	.fullwidth-section { clear: both; float: left; margin: 0; padding: 0; width: 100%;}
 	
-	.parallax { background-attachment: fixed; background-color: transparent; background-position: center top; background-repeat: no-repeat; padding: 100px 0; margin: 0; color: #ffffff; position: relative;}	
+	.parallax { background-attachment: fixed; background-color: transparent; background-position: center; background-repeat: no-repeat; padding: 100px 0; margin: 0; color: #ffffff; position: relative;}	
 	
 	.parallax-img { background: url(images/parallax-img.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;}
 	.dark-skin .parallax-img { background: url(images/parallax-img-dark.jpg); background-size: cover; background-attachment: fixed; background-repeat: no-repeat;}
