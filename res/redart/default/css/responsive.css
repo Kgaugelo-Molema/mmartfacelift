@@ -86,7 +86,7 @@
 
 	.portfolio-grid { padding: 80px 20px 40px;}
 	.dt-sc-portfolio-container .portfolio:last-child { margin: 0;}
-	.dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth { width: 32%;}
+	/*.dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth { width: 32%;}*/
 	.portfolio figure figcaption .portfolio-detail p { padding: 0; }
 	.portfolio figure figcaption .portfolio-detail .views { padding: 0 10px 0 0; }
 	.portfolio figure figcaption .portfolio-detail .portfolio-title { padding: 0 0 0 10px; }	
@@ -338,7 +338,7 @@
 	
 	.portfolio-fullwidth { margin-bottom: 20px; }
 	.portfolio figure::after { border: 25px solid #FFFFFF; }
-	.dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth { width: 48%;}
+	/*.dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth { width: 48%;}*/
 	.portfolio figure figcaption p { font-size: 16px; padding: 10px 20px; }
 	.portfolio figure figcaption .portfolio-detail p { padding: 0; }
 	.portfolio figure figcaption .portfolio-detail .views { padding: 0 10px 0 0; }
@@ -464,7 +464,7 @@
 	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
 	
     /* Note: Design for a width of 480px */
-	@media only screen and (max-width:767px) {
+    @media only screen and (max-width:767px) {
 		
 	.container{ width:420px; }
 	
@@ -830,7 +830,25 @@
 	td, #edd_checkout_cart .edd_cart_header_row td, #edd_user_history td { padding: 13px 9px; }
 				
 	}
-	
+
+    @media only screen and (min-width:700px) and (max-width:750px) {
+        .dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth {
+            padding:0 15%;
+        }       
+    }
+        
+    @media only screen and (min-width:750px) and (max-width:800px) {
+        .dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth {
+            padding:0 20%;
+        }       
+    }
+        
+    @media only screen and (min-width:800px) {
+        .dt-sc-portfolio-container.isotope .portfolio.dt-sc-one-fourth {
+            padding:0 30%;
+        }       
+    }
+        
 	/*----*****---- << Mobile >> ----*****----*/	
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
