@@ -712,7 +712,7 @@
 	
 	.dt-sc-portfolio-container { clear: both; float: left; margin: 0; padding: 0; width: 100%;}
 	.dt-sc-portfolio-container .portfolio { overflow: hidden; position: relative; margin-bottom: 40px;}
-	.dt-sc-portfolio-container .portfolio figure { border: 15px solid; box-sizing: border-box; float: left; width: 100%; overflow: hidden; position: relative;}
+	.dt-sc-portfolio-container .portfolio figure { border: none; float: left; width: 100%; overflow: hidden; position: relative;}
 	.dt-sc-portfolio-container .portfolio figure { border-bottom-color: #000000; border-top-color: #2e2e2e; border-left-color: #2e2e2e; border-right-color: #000000;}	
 	.dt-sc-portfolio-container .portfolio figure img { float: left; }
 	.dt-sc-portfolio-container .portfolio img { max-width: 100%; width: 100%; transform: scale(1.2); -moz-transform: scale(1.2); -webkit-transform: scale(1.2);}
