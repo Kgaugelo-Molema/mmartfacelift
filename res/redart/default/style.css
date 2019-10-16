@@ -687,10 +687,10 @@
 	
 		
 	.portfolio-grid { padding: 80px 40px 40px 80px; width:100%; float: left; box-sizing: border-box; }
-	.portfolio-fullwidth { background: url("http://placehold.it/1920x1440&text=Portfolio+Bg+Image") repeat; float: left; width: 100%; margin-bottom: 80px;}
+	.portfolio-fullwidth { background: url("../../../img/gallery_wallpaper.jpeg") repeat; float: left; width: 100%; margin-bottom: 80px;}
 	
 	.dt-sc-portfolio-container { clear: both; float: left; margin: 0; padding: 0; width: 100%;}
-	.dt-sc-portfolio-container .portfolio { overflow: hidden; position: relative; margin-bottom: 40px;}
+	.dt-sc-portfolio-container .portfolio { overflow: hidden; position: relative; margin-bottom: 40px; padding: 0px 280px;}
 	.dt-sc-portfolio-container .portfolio figure { border: none; box-sizing: border-box; float: left; width: 100%; overflow: hidden; position: relative;}
 	.dt-sc-portfolio-container .portfolio figure { border-bottom-color: #000000; border-top-color: #2e2e2e; border-left-color: #2e2e2e; border-right-color: #000000;}	
 	.dt-sc-portfolio-container .portfolio figure img { float: left; }
@@ -1572,7 +1572,7 @@ table a, #comments a{background-color:inherit;}
 
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width:978px){
+@media screen and (min-width:500px){
 	.hoc{max-width:80%;}
 }
 
@@ -1797,3 +1797,14 @@ button {
 		input, button { border-radius: 0; }
 		.main-title::before, #footer::before { background-image: url(images/title-line@2x.png); background-size:496px 19px; }
 	}
+        
+        /*----*****---- << Footer >> ----*****----*/
+        #copyright * {
+    margin: 0;
+    padding: 0;
+}
+
+.fl_left, .imgl {
+    float: left;
+}
+

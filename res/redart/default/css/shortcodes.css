@@ -9,7 +9,7 @@
 	.dt-sc-full-width, .dt-sc-one-column { width:100%; }
 	.column.dt-sc-full-width, .column.dt-sc-one-column { margin-left:0px; }
 	
-	.dt-sc-one-fourth { width:53.4%; }
+	.dt-sc-one-fourth { width:100%; }
 	.dt-sc-one-half { width:48.9%; }
 	.dt-sc-one-third { width:31.9%; }
 	.dt-sc-three-fourth { width:74.5%; }	
