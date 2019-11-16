@@ -45,8 +45,8 @@ class FormHandler
 		$this->mailer->Subject = "Curators Call - Online";
 
 		$host = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:'localhost';
-        $from_email ='forms@'.$host;
-   		$this->mailer->setFrom($from_email,'Profile Form',false);  
+        $from_email ='curators-no-reply@'.$host;
+   		$this->mailer->setFrom($from_email,'Curators Form',false);  
 
    		$this->captcha = false;   
 

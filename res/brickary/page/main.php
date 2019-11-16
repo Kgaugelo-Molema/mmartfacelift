@@ -141,13 +141,39 @@ include "../../../inc/emailinc.php";
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
-	<iframe src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=cover&size=square" frameborder="0" width="400" height="400"></iframe>
-			<div class="ad-box">
-    
-				<!-- <img class="ad" src="../../../img/greatjoy_walkabout.jpg" /> -->
 
-			</div>
+    <div class="popup" style="display: block;" onclick="$(this).hide();">
+        <div class="cnt223">
+            <h1>ART WORK DETAILS</h1>
+            <p>
+                <br>
+            mmARTHouse is opening up its doors and walls to the visionaries. 
+            We are putting the spotlight on Curators<br>
+            <br>
+            The 2020 exhibition calendar is open for proposals
+
+            <br>
+            <br>
+            <a class="close">Close &#10060;</a> &nbsp;
+
+            <a target="_blank" href="../../../file-upload/index.html">SUBMISSIONS &#x2705;</a>
+            </p>
+        </div>
+    </div>
+    
+  <div id="pageintro" class="hoc clear" style="max-width:1000px; background:white; padding:0 0 0"> 
+        <div class="ad-box">
+
+<!--            <div class="slider-container">
+                <div class="slider fullwidth-section parallax" style="background-position: 50% 0px;">
+                    <div id="logo-only">
+                        <div class="open-ot-alert">ART WORK<br> DETAILS</div>
+                    </div>
+                </div>
+            </div>-->
+
+        </div>
+	<iframe src="https://omny.fm/shows/power-podcasts/guest-profile-visual-artist/embed?style=cover&size=square" frameborder="0" width="400" height="400"></iframe>
     
 			<div style="display:none" class="ad-box">
     

@@ -22,6 +22,6 @@ $validator->field('comments')->maxLength(6000);
 $pp->attachFiles(['image']);
 
 
-$pp->sendEmailTo('events@mmarthouse.co.za'); // â†? Your email here
+$pp->sendEmailTo('curators@mmarthouse.co.za'); // â†? Your email here
 
 echo $pp->process($_POST);
