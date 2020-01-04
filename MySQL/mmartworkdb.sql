@@ -21,7 +21,7 @@ CREATE TABLE [artist_table] (
   [Name] varchar(50) NOT NULL,
   [Date Of Birth] date NOT NULL,
   [Gender] varchar(6) NOT NULL,
-  [Thumbnail] VARBINARY(MAX),
+  [ImageID] INT,
   PRIMARY KEY ([ArtistID])
 ) 
 
@@ -37,7 +37,7 @@ CREATE TABLE [artwork_table] (
   [Art Name] varchar(50) NOT NULL,
   [Artist] varchar(50) NOT NULL,
   [Price] decimal(6,2) NOT NULL,
-  [Picture] VARBINARY(MAX),
+  [ImageID] INT,
   PRIMARY KEY ([ArtworkID])
 ) 
 
