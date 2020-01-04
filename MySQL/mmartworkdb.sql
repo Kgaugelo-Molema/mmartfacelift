@@ -33,7 +33,7 @@ CREATE TABLE [artist_table] (
 
 DROP TABLE IF EXISTS [artwork_table];
 CREATE TABLE [artwork_table] (
-  [ArtworkID] int(11) NOT NULL IDENTITY,
+  [ArtworkID] int NOT NULL IDENTITY,
   [Art Name] varchar(50) NOT NULL,
   [Artist] varchar(50) NOT NULL,
   [Price] decimal(6,2) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE [artwork_table] (
 
 DROP TABLE IF EXISTS [image_table];
 CREATE TABLE [image_table] (
-  [ImageID] int(11) NOT NULL IDENTITY,
+  [ImageID] int NOT NULL IDENTITY,
   [image URL] varchar(200) NOT NULL,
   [Thumbnail] VARBINARY(MAX),
   PRIMARY KEY ([ImageID])
