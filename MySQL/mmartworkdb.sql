@@ -32,14 +32,14 @@ CREATE TABLE [artist_table] (
 --
 
 DROP TABLE IF EXISTS [artwork_table];
-CREATE TABLE IF NOT EXISTS [artwork_table] (
-  [ArtworkID] int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE [artwork_table] (
+  [ArtworkID] int(11) NOT NULL IDENTITY,
   [Art Name] varchar(50) NOT NULL,
   [Artist] varchar(50) NOT NULL,
   [Price] decimal(6,2) NOT NULL,
-  [Picture] blob NOT NULL,
+  [Picture] VARBINARY(MAX),
   PRIMARY KEY ([ArtworkID])
-) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=latin1;
+) 
 
 -- --------------------------------------------------------
 
@@ -48,13 +48,12 @@ CREATE TABLE IF NOT EXISTS [artwork_table] (
 --
 
 DROP TABLE IF EXISTS [image_table];
-CREATE TABLE IF NOT EXISTS [image_table] (
-  [ImageID] int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE [image_table] (
+  [ImageID] int(11) NOT NULL IDENTITY,
   [image URL] varchar(200) NOT NULL,
-  [Thumbnail] blob NOT NULL,
+  [Thumbnail] VARBINARY(MAX),
   PRIMARY KEY ([ImageID])
-) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=latin1;
-COMMIT;
+)
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
