@@ -3,6 +3,12 @@
 -- Database: 'mmartworkdb'
 --
 
+IF DB_ID('mmartworkdb') IS NULL
+	CREATE DATABASE mmartworkdb
+GO
+
+USE mmartworkdb
+GO
 -- --------------------------------------------------------
 
 --
@@ -10,14 +16,14 @@
 --
 
 DROP TABLE IF EXISTS [artist_table];
-CREATE TABLE IF NOT EXISTS [artist_table] (
-  [ArtistID] int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE [artist_table] (
+  [ArtistID] int NOT NULL IDENTITY,
   [Name] varchar(50) NOT NULL,
   [Date Of Birth] date NOT NULL,
   [Gender] varchar(6) NOT NULL,
-  [Thumbnail] blob,
+  [Thumbnail] VARBINARY(MAX),
   PRIMARY KEY ([ArtistID])
-) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=latin1;
+) 
 
 -- --------------------------------------------------------
 
