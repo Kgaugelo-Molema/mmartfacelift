@@ -1,1 +1,3 @@
-<?php header('Location:./res/brickary/page/'); ?>
+<?php 
+header('Location:./coming/'); 
+?>
