@@ -1,3 +1,4 @@
-<?php 
-header('Location:./coming/'); 
+<?php
+    $url = 'Location:./coming/';
+    header($url);
 ?>

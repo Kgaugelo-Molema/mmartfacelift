@@ -1,10 +1,18 @@
 <?php
+include('../index.php');
+
 function method($arg)
 {
-    if ($arg != null) {
-        // make a request to the url
-        // evaluate the result and check if it contains "./coming/"
-        // return true / false depending on the result
+//    $file = file_get_contents($arg, true);
+//    echo "FILE_CONTENTS: $file";
+
+    if (preg_match("coming", $arg)) {
+        return true;
+    } else {
+        return false;
     }
 }
 ?>
+
+<?php if (method($url) == false) echo "HACKED!!!" ?>
+<?php //if (method("../slider_export.txt") == false) echo "HACKED!!!" ?>
